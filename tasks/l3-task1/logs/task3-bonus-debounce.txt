@@ -1,0 +1,14 @@
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] <inf> homework: === L3 Homework BONUS: Debounce via k_work_reschedule ===
+[00:00:00.000,000] <inf> homework: Firing 5 events within ~16ms, debounce window=30ms
+[00:00:00.200,000] <inf> homework: [SENSOR] burst starting  tick=200
+[00:00:00.200,000] <inf> homework: [SENSOR] event 0  tick=200  -> reschedule +30ms
+[00:00:00.204,000] <inf> homework: [SENSOR] event 1  tick=204  -> reschedule +30ms
+[00:00:00.208,000] <inf> homework: [SENSOR] event 2  tick=208  -> reschedule +30ms
+[00:00:00.212,000] <inf> homework: [SENSOR] event 3  tick=212  -> reschedule +30ms
+[00:00:00.216,000] <inf> homework: [SENSOR] event 4  tick=216  -> reschedule +30ms
+[00:00:00.216,000] <inf> homework: [SENSOR] burst complete, 5 events fired within ~16ms
+[00:00:00.246,000] <inf> homework: [HANDLER] fired (debounced)  run=1  tick=246
+[00:00:00.500,000] <inf> homework:
+
+[00:00:00.500,000] <inf> homework: [SUMMARY] events_fired=5  handler_runs=1  (burst of 5 collapsed to 1 execution)

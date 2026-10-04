@@ -1,0 +1,27 @@
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] <inf> homework: === L3 Homework: Workqueue solution ===
+[00:00:00.000,000] <inf> homework: sensor fires every 100ms, handler runs only on real events
+[00:00:00.100,000] <inf> homework: [SENSOR] event 0  tick=100
+[00:00:00.100,000] <inf> homework: [HANDLER] processed event 1  tick=100
+[00:00:00.200,000] <inf> homework: [SENSOR] event 1  tick=200
+[00:00:00.200,000] <inf> homework: [HANDLER] processed event 2  tick=200
+[00:00:00.300,000] <inf> homework: [SENSOR] event 2  tick=300
+[00:00:00.300,000] <inf> homework: [HANDLER] processed event 3  tick=300
+[00:00:00.400,000] <inf> homework: [SENSOR] event 3  tick=400
+[00:00:00.400,000] <inf> homework: [HANDLER] processed event 4  tick=400
+[00:00:00.500,000] <inf> homework: [SENSOR] event 4  tick=500
+[00:00:00.500,000] <inf> homework: [HANDLER] processed event 5  tick=500
+[00:00:00.600,000] <inf> homework: [SENSOR] event 5  tick=600
+[00:00:00.600,000] <inf> homework: [HANDLER] processed event 6  tick=600
+[00:00:00.700,000] <inf> homework: [SENSOR] event 6  tick=700
+[00:00:00.700,000] <inf> homework: [HANDLER] processed event 7  tick=700
+[00:00:00.801,000] <inf> homework: [SENSOR] event 7  tick=801
+[00:00:00.801,000] <inf> homework: [HANDLER] processed event 8  tick=801
+[00:00:00.901,000] <inf> homework: [SENSOR] event 8  tick=901
+[00:00:00.901,000] <inf> homework: [HANDLER] processed event 9  tick=901
+[00:00:01.001,000] <inf> homework: [SENSOR] event 9  tick=1001
+[00:00:01.001,000] <inf> homework: [HANDLER] processed event 10  tick=1001
+[00:00:01.001,000] <inf> homework: [SENSOR] all events produced
+[00:00:01.700,000] <inf> homework:
+
+[00:00:01.700,000] <inf> homework: [SUMMARY] events=10  processed=10  (no wasted wakeups - handler only runs on real events)

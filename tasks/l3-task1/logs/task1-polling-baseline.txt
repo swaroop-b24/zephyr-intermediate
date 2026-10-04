@@ -1,0 +1,31 @@
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] <inf> homework: === L3 Homework: Polling to Workqueue ===
+[00:00:00.000,000] <inf> homework: Starter: polling every 10ms, sensor fires every 100ms
+[00:00:00.000,000] <inf> homework: Expected wasted wakeups: ~9 per event
+[00:00:00.000,000] <inf> homework: Run this, count wakeups, then convert to workqueue.
+[00:00:00.100,000] <inf> homework: [SENSOR] event 0  tick=100
+[00:00:00.101,000] <inf> homework: [CONSUMER] processed event 1  wakeups_so_far=10  tick=101
+[00:00:00.200,000] <inf> homework: [SENSOR] event 1  tick=200
+[00:00:00.202,000] <inf> homework: [CONSUMER] processed event 2  wakeups_so_far=20  tick=202
+[00:00:00.300,000] <inf> homework: [SENSOR] event 2  tick=300
+[00:00:00.303,000] <inf> homework: [CONSUMER] processed event 3  wakeups_so_far=30  tick=303
+[00:00:00.400,000] <inf> homework: [SENSOR] event 3  tick=400
+[00:00:00.404,000] <inf> homework: [CONSUMER] processed event 4  wakeups_so_far=40  tick=404
+[00:00:00.500,000] <inf> homework: [SENSOR] event 4  tick=500
+[00:00:00.505,000] <inf> homework: [CONSUMER] processed event 5  wakeups_so_far=50  tick=505
+[00:00:00.600,000] <inf> homework: [SENSOR] event 5  tick=600
+[00:00:00.606,000] <inf> homework: [CONSUMER] processed event 6  wakeups_so_far=60  tick=606
+[00:00:00.700,000] <inf> homework: [SENSOR] event 6  tick=700
+[00:00:00.707,000] <inf> homework: [CONSUMER] processed event 7  wakeups_so_far=70  tick=707
+[00:00:00.800,000] <inf> homework: [SENSOR] event 7  tick=800
+[00:00:00.808,000] <inf> homework: [CONSUMER] processed event 8  wakeups_so_far=80  tick=808
+[00:00:00.901,000] <inf> homework: [SENSOR] event 8  tick=901
+[00:00:00.909,000] <inf> homework: [CONSUMER] processed event 9  wakeups_so_far=90  tick=909
+[00:00:01.001,000] <inf> homework: [SENSOR] event 9  tick=1001
+[00:00:01.001,000] <inf> homework: [SENSOR] all events produced
+[00:00:01.010,000] <inf> homework: [CONSUMER] processed event 10  wakeups_so_far=100  tick=1010
+[00:00:01.010,000] <inf> homework:
+
+[00:00:01.010,000] <inf> homework: [SUMMARY] events=10  total_wakeups=100  wasted=90
+[00:00:01.010,000] <inf> homework: [SUMMARY] wasted wakeups = 90% of all wakeups
+

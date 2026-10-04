@@ -5,4 +5,4 @@ build
 .west
 deps
 project_layout.txt
-.cache
+.cache.vscode/
