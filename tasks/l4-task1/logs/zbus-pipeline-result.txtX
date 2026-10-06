@@ -1,0 +1,46 @@
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] <inf> zbus_demo: === L4 Task 1: zbus event-driven sensor pipeline ===
+[00:00:00.000,000] <inf> zbus_demo: Publishing every 100ms, 10 samples total
+[00:00:00.100,000] <inf> zbus_demo: [SENSOR  ] publishing value=100  tick=100
+[00:00:00.100,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=100  tick=100
+[00:00:00.100,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=100  recv_tick=100, now logging (slow)...
+[00:00:00.140,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=100  tick=140
+[00:00:00.200,000] <inf> zbus_demo: [SENSOR  ] publishing value=105  tick=200
+[00:00:00.200,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=105  tick=200
+[00:00:00.200,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=105  recv_tick=200, now logging (slow)...
+[00:00:00.240,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=105  tick=240
+[00:00:00.300,000] <inf> zbus_demo: [SENSOR  ] publishing value=110  tick=300
+[00:00:00.300,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=110  tick=300
+[00:00:00.300,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=110  recv_tick=300, now logging (slow)...
+[00:00:00.340,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=110  tick=340
+[00:00:00.400,000] <inf> zbus_demo: [SENSOR  ] publishing value=115  tick=400
+[00:00:00.400,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=115  tick=400
+[00:00:00.400,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=115  recv_tick=400, now logging (slow)...
+[00:00:00.440,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=115  tick=440
+[00:00:00.500,000] <inf> zbus_demo: [SENSOR  ] publishing value=120  tick=500
+[00:00:00.500,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=120  tick=500
+[00:00:00.500,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=120  recv_tick=500, now logging (slow)...
+[00:00:00.540,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=120  tick=540
+[00:00:00.600,000] <inf> zbus_demo: [SENSOR  ] publishing value=125  tick=600
+[00:00:00.600,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=125  tick=600
+[00:00:00.600,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=125  recv_tick=600, now logging (slow)...
+[00:00:00.640,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=125  tick=640
+[00:00:00.700,000] <inf> zbus_demo: [SENSOR  ] publishing value=130  tick=700
+[00:00:00.700,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=130  tick=700
+[00:00:00.700,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=130  recv_tick=700, now logging (slow)...
+[00:00:00.741,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=130  tick=741
+[00:00:00.800,000] <inf> zbus_demo: [SENSOR  ] publishing value=135  tick=800
+[00:00:00.800,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=135  tick=800
+[00:00:00.801,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=135  recv_tick=800, now logging (slow)...
+[00:00:00.841,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=135  tick=841
+[00:00:00.901,000] <inf> zbus_demo: [SENSOR  ] publishing value=140  tick=901
+[00:00:00.901,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=140  tick=901
+[00:00:00.901,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=140  recv_tick=901, now logging (slow)...
+[00:00:00.941,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=140  tick=941
+[00:00:01.001,000] <inf> zbus_demo: [SENSOR  ] publishing value=145  tick=1001
+[00:00:01.001,000] <inf> zbus_demo: [DISPLAY ] (listener, inline) value=145  tick=1001
+[00:00:01.001,000] <inf> zbus_demo: [SENSOR  ] all samples published
+[00:00:01.001,000] <inf> zbus_demo: [LOGGER  ] (subscriber) received value=145  recv_tick=1001, now logging (slow)...
+[00:00:01.041,000] <inf> zbus_demo: [LOGGER  ] (subscriber) done logging value=145  tick=1041
+[00:00:01.700,000] <inf> zbus_demo:
+                                    [SUMMARY] Done. Compare DISPLAY (inline, immediate) vs LOGGER (own thread, 40ms slower per message) timestam
