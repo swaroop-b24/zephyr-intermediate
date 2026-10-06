@@ -6,3 +6,4 @@ build
 deps
 project_layout.txt
 .cache.vscode/
+.vscode/
