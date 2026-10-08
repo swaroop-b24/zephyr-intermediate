@@ -1,0 +1,355 @@
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] <inf> l5: === L5 Task 1: reliability under pressure ===
+[00:00:00.000,000] <inf> l5: queue=8 slots, warn at 75% (6 msgs), wdt timeout=1000 ms, consumer stuck for 5000 ms after msg 10
+[00:00:00.000,000] <inf> l5: [CONSUMER] started, wdt channel=0 timeout=1000 ms
+[00:00:00.100,000] <inf> l5: [PRODUCER] put seq=0  queue=0/8
+[00:00:00.100,000] <inf> l5: [CONSUMER] got seq=0  queue_latency=0 ms  queue=0/8
+[00:00:00.200,000] <inf> l5: [PRODUCER] put seq=1  queue=0/8
+[00:00:00.200,000] <inf> l5: [CONSUMER] got seq=1  queue_latency=0 ms  queue=0/8
+[00:00:00.300,000] <inf> l5: [PRODUCER] put seq=2  queue=0/8
+[00:00:00.300,000] <inf> l5: [CONSUMER] got seq=2  queue_latency=0 ms  queue=0/8
+[00:00:00.400,000] <inf> l5: [PRODUCER] put seq=3  queue=0/8
+[00:00:00.400,000] <inf> l5: [CONSUMER] got seq=3  queue_latency=0 ms  queue=0/8
+[00:00:00.500,000] <inf> l5: [PRODUCER] put seq=4  queue=0/8
+[00:00:00.500,000] <inf> l5: [CONSUMER] got seq=4  queue_latency=0 ms  queue=0/8
+[00:00:00.501,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:00.600,000] <inf> l5: [PRODUCER] put seq=5  queue=0/8
+[00:00:00.600,000] <inf> l5: [CONSUMER] got seq=5  queue_latency=0 ms  queue=0/8
+[00:00:00.701,000] <inf> l5: [PRODUCER] put seq=6  queue=0/8
+[00:00:00.701,000] <inf> l5: [CONSUMER] got seq=6  queue_latency=0 ms  queue=0/8
+[00:00:00.801,000] <inf> l5: [PRODUCER] put seq=7  queue=0/8
+[00:00:00.801,000] <inf> l5: [CONSUMER] got seq=7  queue_latency=0 ms  queue=0/8
+[00:00:00.901,000] <inf> l5: [PRODUCER] put seq=8  queue=0/8
+[00:00:00.901,000] <inf> l5: [CONSUMER] got seq=8  queue_latency=0 ms  queue=0/8
+[00:00:01.001,000] <inf> l5: [PRODUCER] put seq=9  queue=0/8
+[00:00:01.001,000] <inf> l5: [CONSUMER] got seq=9  queue_latency=0 ms  queue=0/8
+[00:00:01.001,000] <wrn> l5: [CONSUMER] *** SIMULATING STUCK: k_sleep(5000 ms), no watchdog feed ***
+[00:00:01.002,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:01.101,000] <inf> l5: [PRODUCER] put seq=10  queue=1/8
+[00:00:01.201,000] <inf> l5: [PRODUCER] put seq=11  queue=2/8
+[00:00:01.301,000] <inf> l5: [PRODUCER] put seq=12  queue=3/8
+[00:00:01.401,000] <inf> l5: [PRODUCER] put seq=13  queue=4/8
+[00:00:01.501,000] <inf> l5: [PRODUCER] put seq=14  queue=5/8
+[00:00:01.503,000] <inf> l5: [HEALTH  ] depth 5/8 (62%)
+[00:00:01.601,000] <inf> l5: [PRODUCER] put seq=15  queue=6/8
+[00:00:01.603,000] <wrn> l5: [HEALTH  ] WARNING queue at 75% (6/8) - reached 75% threshold
+[00:00:01.702,000] <inf> l5: [PRODUCER] put seq=16  queue=7/8
+[00:00:01.802,000] <inf> l5: [PRODUCER] put seq=17  queue=8/8
+[00:00:01.803,000] <err> l5: [HEALTH  ] queue 100% FULL - producer will start dropping
+[00:00:01.901,000] <err> l5: [WDT     ] channel 0 EXPIRED - thread 'consumer_thread' missed its 1000 ms deadline (queue=8/8)
+[00:00:01.902,000] <wrn> l5: [PRODUCER] queue FULL - dropped seq=18 (total dropped=1)
+[00:00:02.004,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:02.505,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:02.803,000] <wrn> l5: [PRODUCER] queue FULL - dropped seq=27 (total dropped=10)
+[00:00:03.006,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:03.507,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:03.804,000] <wrn> l5: [PRODUCER] queue FULL - dropped seq=37 (total dropped=20)
+[00:00:04.008,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:04.509,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:04.805,000] <wrn> l5: [PRODUCER] queue FULL - dropped seq=47 (total dropped=30)
+[00:00:05.010,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:05.511,000] <inf> l5: [HEALTH  ] depth 8/8 (100%)
+[00:00:05.806,000] <wrn> l5: [PRODUCER] queue FULL - dropped seq=57 (total dropped=40)
+[00:00:06.001,000] <inf> l5: [CONSUMER] recovered, resuming (queue=8/8)
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=10  queue_latency=4900 ms  queue=7/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=11  queue_latency=4800 ms  queue=6/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=12  queue_latency=4700 ms  queue=5/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=13  queue_latency=4600 ms  queue=4/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=14  queue_latency=4500 ms  queue=3/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=15  queue_latency=4400 ms  queue=2/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=16  queue_latency=4299 ms  queue=1/8
+[00:00:06.001,000] <inf> l5: [CONSUMER] got seq=17  queue_latency=4199 ms  queue=0/8
+[00:00:06.006,000] <inf> l5: [PRODUCER] put seq=59  queue=0/8
+[00:00:06.006,000] <inf> l5: [CONSUMER] got seq=59  queue_latency=0 ms  queue=0/8
+[00:00:06.012,000] <inf> l5: [HEALTH  ] queue back down to 0% (0/8) - recovered
+[00:00:06.012,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:06.106,000] <inf> l5: [PRODUCER] put seq=60  queue=0/8
+[00:00:06.106,000] <inf> l5: [CONSUMER] got seq=60  queue_latency=0 ms  queue=0/8
+[00:00:06.206,000] <inf> l5: [PRODUCER] put seq=61  queue=0/8
+[00:00:06.206,000] <inf> l5: [CONSUMER] got seq=61  queue_latency=0 ms  queue=0/8
+[00:00:06.306,000] <inf> l5: [PRODUCER] put seq=62  queue=0/8
+[00:00:06.306,000] <inf> l5: [CONSUMER] got seq=62  queue_latency=0 ms  queue=0/8
+[00:00:06.406,000] <inf> l5: [PRODUCER] put seq=63  queue=0/8
+[00:00:06.406,000] <inf> l5: [CONSUMER] got seq=63  queue_latency=0 ms  queue=0/8
+[00:00:06.506,000] <inf> l5: [PRODUCER] put seq=64  queue=0/8
+[00:00:06.506,000] <inf> l5: [CONSUMER] got seq=64  queue_latency=0 ms  queue=0/8
+[00:00:06.513,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:06.606,000] <inf> l5: [PRODUCER] put seq=65  queue=0/8
+[00:00:06.606,000] <inf> l5: [CONSUMER] got seq=65  queue_latency=0 ms  queue=0/8
+[00:00:06.707,000] <inf> l5: [PRODUCER] put seq=66  queue=0/8
+[00:00:06.707,000] <inf> l5: [CONSUMER] got seq=66  queue_latency=0 ms  queue=0/8
+[00:00:06.807,000] <inf> l5: [PRODUCER] put seq=67  queue=0/8
+[00:00:06.807,000] <inf> l5: [CONSUMER] got seq=67  queue_latency=0 ms  queue=0/8
+[00:00:06.907,000] <inf> l5: [PRODUCER] put seq=68  queue=0/8
+[00:00:06.907,000] <inf> l5: [CONSUMER] got seq=68  queue_latency=0 ms  queue=0/8
+[00:00:07.007,000] <inf> l5: [PRODUCER] put seq=69  queue=0/8
+[00:00:07.007,000] <inf> l5: [CONSUMER] got seq=69  queue_latency=0 ms  queue=0/8
+[00:00:07.014,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:07.107,000] <inf> l5: [PRODUCER] put seq=70  queue=0/8
+[00:00:07.107,000] <inf> l5: [CONSUMER] got seq=70  queue_latency=0 ms  queue=0/8
+[00:00:07.207,000] <inf> l5: [PRODUCER] put seq=71  queue=0/8
+[00:00:07.207,000] <inf> l5: [CONSUMER] got seq=71  queue_latency=0 ms  queue=0/8
+[00:00:07.307,000] <inf> l5: [PRODUCER] put seq=72  queue=0/8
+[00:00:07.307,000] <inf> l5: [CONSUMER] got seq=72  queue_latency=0 ms  queue=0/8
+[00:00:07.407,000] <inf> l5: [PRODUCER] put seq=73  queue=0/8
+[00:00:07.407,000] <inf> l5: [CONSUMER] got seq=73  queue_latency=0 ms  queue=0/8
+[00:00:07.507,000] <inf> l5: [PRODUCER] put seq=74  queue=0/8
+[00:00:07.507,000] <inf> l5: [CONSUMER] got seq=74  queue_latency=0 ms  queue=0/8
+[00:00:07.515,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:07.607,000] <inf> l5: [PRODUCER] put seq=75  queue=0/8
+[00:00:07.607,000] <inf> l5: [CONSUMER] got seq=75  queue_latency=0 ms  queue=0/8
+[00:00:07.708,000] <inf> l5: [PRODUCER] put seq=76  queue=0/8
+[00:00:07.708,000] <inf> l5: [CONSUMER] got seq=76  queue_latency=0 ms  queue=0/8
+[00:00:07.808,000] <inf> l5: [PRODUCER] put seq=77  queue=0/8
+[00:00:07.808,000] <inf> l5: [CONSUMER] got seq=77  queue_latency=0 ms  queue=0/8
+[00:00:07.908,000] <inf> l5: [PRODUCER] put seq=78  queue=0/8
+[00:00:07.908,000] <inf> l5: [CONSUMER] got seq=78  queue_latency=0 ms  queue=0/8
+[00:00:08.008,000] <inf> l5: [PRODUCER] put seq=79  queue=0/8
+[00:00:08.008,000] <inf> l5: [PRODUCER] finished producing 80 messages
+[00:00:08.008,000] <inf> l5: [CONSUMER] got seq=79  queue_latency=0 ms  queue=0/8
+[00:00:08.016,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:08.517,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:09.018,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:09.500,000] <inf> l5: [SUMMARY] accepted=39 consumed=39 dropped=41 wdt_fires=1 max_queue_depth=8/8
+[00:00:09.519,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:10.020,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:10.521,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:11.022,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:11.523,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:12.024,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:12.525,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:13.026,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:13.527,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:14.028,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:14.529,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:15.030,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:15.531,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:16.032,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:16.533,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:17.034,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:17.535,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:18.036,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:18.537,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:19.038,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:19.539,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:20.040,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:20.541,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:21.042,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:21.543,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:22.044,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:22.545,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:23.046,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:23.547,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:24.048,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:24.549,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:25.050,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:25.551,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:26.052,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:26.553,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:27.054,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:27.555,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:28.056,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:28.557,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:29.058,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:29.559,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:30.060,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:30.561,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:31.062,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:31.563,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:32.064,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:32.565,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:33.066,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:33.567,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:34.068,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:34.569,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:35.070,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:35.571,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:36.072,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:36.573,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:37.074,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:37.575,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:38.076,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:38.577,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:39.078,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:39.579,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:40.080,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:40.581,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:41.082,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:41.583,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:42.084,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:42.585,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:43.086,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:43.587,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:44.088,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:44.589,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:45.090,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:45.591,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:46.092,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:46.593,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:47.094,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:47.595,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:48.096,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:48.597,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:49.098,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:49.599,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:50.100,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:50.601,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:51.102,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:51.603,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:52.104,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:52.605,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:53.106,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:53.607,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:54.108,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:54.609,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:55.110,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:55.611,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:56.112,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:56.613,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:57.114,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:57.615,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:58.116,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:58.617,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:59.118,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:00:59.619,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:00.120,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:00.621,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:01.122,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:01.623,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:02.124,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:02.625,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:03.126,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:03.627,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:04.128,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:04.629,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:05.130,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:05.631,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:06.132,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:06.633,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:07.134,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:07.635,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:08.136,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:08.637,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:09.138,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:09.639,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:10.140,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:10.641,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:11.142,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:11.643,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:12.144,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:12.645,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:13.146,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:13.647,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:14.148,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:14.649,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:15.150,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:15.651,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:16.152,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:16.653,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:17.154,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:17.655,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:18.156,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:18.657,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:19.158,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:19.659,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:20.160,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:20.661,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:21.162,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:21.663,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:22.164,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:22.665,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:23.166,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:23.667,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:24.168,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:24.669,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:25.170,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:25.671,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:26.172,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:26.673,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:27.174,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:27.675,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:28.176,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:28.677,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:29.178,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:29.679,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:30.180,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:30.681,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:31.182,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:31.683,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:32.184,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:32.685,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:33.186,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:33.687,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:34.188,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:34.689,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:35.190,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:35.691,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:36.192,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:36.693,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:37.194,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:37.695,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:38.196,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:38.697,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:39.198,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:39.699,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:40.200,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:40.701,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:41.202,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:41.703,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:42.204,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:42.705,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:43.206,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:43.707,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:44.208,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:44.709,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:45.210,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:45.711,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:46.212,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:46.713,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:47.214,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:47.715,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:48.216,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:48.717,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:49.218,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:49.719,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:50.220,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:50.721,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:51.222,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:51.723,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:52.224,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:52.725,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:53.226,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:53.727,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:54.228,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:54.729,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:55.230,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:55.731,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:56.232,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:56.733,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:57.234,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:57.735,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:58.236,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:58.737,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:59.238,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:01:59.739,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:00.240,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:00.741,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:01.242,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:01.743,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:02.244,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:02.745,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:03.246,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:03.747,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:04.248,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:04.749,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:05.250,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:05.751,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:06.252,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:06.753,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:07.254,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:07.755,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:08.256,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:08.757,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:09.258,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02:09.759,000] <inf> l5: [HEALTH  ] depth 0/8 (0%)
+[00:02
