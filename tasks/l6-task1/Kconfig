@@ -1,0 +1,7 @@
+config APP_FIX_PRIORITY
+	bool "Give the control thread a higher priority than maintenance"
+	help
+	  n (default): starter priorities, control=7 maintenance=4
+	  y: corrected priorities, control=3 maintenance=4
+
+source "Kconfig.zephyr"

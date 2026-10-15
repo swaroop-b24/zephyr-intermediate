@@ -1,0 +1,3651 @@
+       0.000 ms  +    0.000  thread_create: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  thread_info: thread_id=0x80646c0 name="control" stack_base=134636160 stack_size=2048
+       0.000 ms  +    0.000  thread_create: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  thread_info: thread_id=0x8064620 name="maintenance" stack_base=134634112 stack_size=2048
+       0.000 ms  +    0.000  thread_sched_lock
+       0.000 ms  +    0.000  thread_wakeup: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  thread_wakeup: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  thread_sched_unlock
+       0.000 ms  +    0.000  timer_start: id=134628620 duration=500000 period=250000
+       0.000 ms  +    0.000  thread_sched_abort: thread_id=0x80657a0 name="main"
+       0.000 ms  +    0.000  thread_switched_out: thread_id=0x80657a0 name="main"
+       0.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+       0.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+       0.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+       0.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+       0.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+       0.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+       0.000 ms  +    0.000  thread_switched_in: thread_id=0x8064780 name="logging"
+       0.000 ms  +    0.000  semaphore_give_enter: id=134628740
+       0.000 ms  +    0.000  semaphore_give_exit: id=134628740
+       0.000 ms  +    0.000  semaphore_give_enter: id=134628564
+       0.000 ms  +    0.000  semaphore_give_exit: id=134628564
+       0.000 ms  +    0.000  semaphore_give_enter: id=134628564
+       0.000 ms  +    0.000  semaphore_give_exit: id=134628564
+       0.000 ms  +    0.000  semaphore_give_enter: id=134628564
+       0.000 ms  +    0.000  semaphore_give_exit: id=134628564
+       0.000 ms  +    0.000  semaphore_give_enter: id=134628564
+       0.000 ms  +    0.000  semaphore_give_exit: id=134628564
+       0.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+       0.000 ms  +    0.000  semaphore_take_exit: id=134628740 timeout=4294957296 ret=0
+       0.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+       0.000 ms  +    0.000  semaphore_take_blocking: id=134628740 timeout=4294957296
+       0.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064780 name="logging"
+       0.000 ms  +    0.000  thread_switched_out: thread_id=0x8064780 name="logging"
+       0.000 ms  +    0.000  thread_switched_in: thread_id=0x8065080 name="shell_uart"
+       0.000 ms  +    0.000  semaphore_take_enter: id=134632388 timeout=50000
+       0.000 ms  +    0.000  semaphore_take_exit: id=134632388 timeout=50000 ret=0
+       0.000 ms  +    0.000  event_post_enter: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_exit: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_enter: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_exit: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_enter: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_exit: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_enter: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_exit: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_enter: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  event_post_exit: event_id=134632372 events=8 events_mask=8
+       0.000 ms  +    0.000  semaphore_give_enter: id=134632388
+       0.000 ms  +    0.000  semaphore_give_exit: id=134632388
+       0.000 ms  +    0.000  event_wait_enter: event_id=134632372 events=7 options=0 timeout=4294967295
+       0.000 ms  +    0.000  event_wait_blocking: event_id=134632372 events=7 options=0 timeout=4294967295
+       0.000 ms  +    0.000  thread_sched_pend: thread_id=0x8065080 name="shell_uart"
+       0.000 ms  +    0.000  thread_switched_out: thread_id=0x8065080 name="shell_uart"
+       0.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+       0.000 ms  +    0.000  idle
+      10.000 ms  +   10.000  isr_enter
+      10.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      10.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      10.000 ms  +    0.000  isr_exit
+      10.000 ms  +    0.000  idle
+      20.000 ms  +   10.000  isr_enter
+      20.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      20.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      20.000 ms  +    0.000  isr_exit
+      20.000 ms  +    0.000  idle
+      30.000 ms  +   10.000  isr_enter
+      30.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      30.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      30.000 ms  +    0.000  isr_exit
+      30.000 ms  +    0.000  idle
+      40.000 ms  +   10.000  isr_enter
+      40.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      40.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      40.000 ms  +    0.000  isr_exit
+      40.000 ms  +    0.000  idle
+      50.000 ms  +   10.000  isr_enter
+      50.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      50.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      50.000 ms  +    0.000  isr_exit
+      50.000 ms  +    0.000  idle
+      60.000 ms  +   10.000  isr_enter
+      60.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      60.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      60.000 ms  +    0.000  isr_exit
+      60.000 ms  +    0.000  idle
+      70.000 ms  +   10.000  isr_enter
+      70.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      70.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      70.000 ms  +    0.000  isr_exit
+      70.000 ms  +    0.000  idle
+      80.000 ms  +   10.000  isr_enter
+      80.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      80.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      80.000 ms  +    0.000  isr_exit
+      80.000 ms  +    0.000  idle
+      90.000 ms  +   10.000  isr_enter
+      90.000 ms  +    0.000  timer_expiry_enter: id=134632548
+      90.000 ms  +    0.000  timer_expiry_exit: id=134632548
+      90.000 ms  +    0.000  isr_exit
+      90.000 ms  +    0.000  idle
+     100.000 ms  +   10.000  isr_enter
+     100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     100.000 ms  +    0.000  isr_exit
+     100.000 ms  +    0.000  idle
+     110.000 ms  +   10.000  isr_enter
+     110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     110.000 ms  +    0.000  isr_exit
+     110.000 ms  +    0.000  idle
+     120.000 ms  +   10.000  isr_enter
+     120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     120.000 ms  +    0.000  isr_exit
+     120.000 ms  +    0.000  idle
+     130.000 ms  +   10.000  isr_enter
+     130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     130.000 ms  +    0.000  isr_exit
+     130.000 ms  +    0.000  idle
+     140.000 ms  +   10.000  isr_enter
+     140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     140.000 ms  +    0.000  isr_exit
+     140.000 ms  +    0.000  idle
+     150.000 ms  +   10.000  isr_enter
+     150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     150.000 ms  +    0.000  isr_exit
+     150.000 ms  +    0.000  idle
+     160.000 ms  +   10.000  isr_enter
+     160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     160.000 ms  +    0.000  isr_exit
+     160.000 ms  +    0.000  idle
+     170.000 ms  +   10.000  isr_enter
+     170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     170.000 ms  +    0.000  isr_exit
+     170.000 ms  +    0.000  idle
+     180.000 ms  +   10.000  isr_enter
+     180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     180.000 ms  +    0.000  isr_exit
+     180.000 ms  +    0.000  idle
+     190.000 ms  +   10.000  isr_enter
+     190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     190.000 ms  +    0.000  isr_exit
+     190.000 ms  +    0.000  idle
+     200.000 ms  +   10.000  isr_enter
+     200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     200.000 ms  +    0.000  isr_exit
+     200.000 ms  +    0.000  idle
+     210.000 ms  +   10.000  isr_enter
+     210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     210.000 ms  +    0.000  isr_exit
+     210.000 ms  +    0.000  idle
+     220.000 ms  +   10.000  isr_enter
+     220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     220.000 ms  +    0.000  isr_exit
+     220.000 ms  +    0.000  idle
+     230.000 ms  +   10.000  isr_enter
+     230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     230.000 ms  +    0.000  isr_exit
+     230.000 ms  +    0.000  idle
+     240.000 ms  +   10.000  isr_enter
+     240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     240.000 ms  +    0.000  isr_exit
+     240.000 ms  +    0.000  idle
+     250.000 ms  +   10.000  isr_enter
+     250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     250.000 ms  +    0.000  isr_exit
+     250.000 ms  +    0.000  idle
+     260.000 ms  +   10.000  isr_enter
+     260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     260.000 ms  +    0.000  isr_exit
+     260.000 ms  +    0.000  idle
+     270.000 ms  +   10.000  isr_enter
+     270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     270.000 ms  +    0.000  isr_exit
+     270.000 ms  +    0.000  idle
+     280.000 ms  +   10.000  isr_enter
+     280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     280.000 ms  +    0.000  isr_exit
+     280.000 ms  +    0.000  idle
+     290.000 ms  +   10.000  isr_enter
+     290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     290.000 ms  +    0.000  isr_exit
+     290.000 ms  +    0.000  idle
+     300.000 ms  +   10.000  isr_enter
+     300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     300.000 ms  +    0.000  isr_exit
+     300.000 ms  +    0.000  idle
+     310.000 ms  +   10.000  isr_enter
+     310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     310.000 ms  +    0.000  isr_exit
+     310.000 ms  +    0.000  idle
+     320.000 ms  +   10.000  isr_enter
+     320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     320.000 ms  +    0.000  isr_exit
+     320.000 ms  +    0.000  idle
+     330.000 ms  +   10.000  isr_enter
+     330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     330.000 ms  +    0.000  isr_exit
+     330.000 ms  +    0.000  idle
+     340.000 ms  +   10.000  isr_enter
+     340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     340.000 ms  +    0.000  isr_exit
+     340.000 ms  +    0.000  idle
+     350.000 ms  +   10.000  isr_enter
+     350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     350.000 ms  +    0.000  isr_exit
+     350.000 ms  +    0.000  idle
+     360.000 ms  +   10.000  isr_enter
+     360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     360.000 ms  +    0.000  isr_exit
+     360.000 ms  +    0.000  idle
+     370.000 ms  +   10.000  isr_enter
+     370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     370.000 ms  +    0.000  isr_exit
+     370.000 ms  +    0.000  idle
+     380.000 ms  +   10.000  isr_enter
+     380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     380.000 ms  +    0.000  isr_exit
+     380.000 ms  +    0.000  idle
+     390.000 ms  +   10.000  isr_enter
+     390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     390.000 ms  +    0.000  isr_exit
+     390.000 ms  +    0.000  idle
+     400.000 ms  +   10.000  isr_enter
+     400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     400.000 ms  +    0.000  isr_exit
+     400.000 ms  +    0.000  idle
+     410.000 ms  +   10.000  isr_enter
+     410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     410.000 ms  +    0.000  isr_exit
+     410.000 ms  +    0.000  idle
+     420.000 ms  +   10.000  isr_enter
+     420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     420.000 ms  +    0.000  isr_exit
+     420.000 ms  +    0.000  idle
+     430.000 ms  +   10.000  isr_enter
+     430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     430.000 ms  +    0.000  isr_exit
+     430.000 ms  +    0.000  idle
+     440.000 ms  +   10.000  isr_enter
+     440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     440.000 ms  +    0.000  isr_exit
+     440.000 ms  +    0.000  idle
+     450.000 ms  +   10.000  isr_enter
+     450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     450.000 ms  +    0.000  isr_exit
+     450.000 ms  +    0.000  idle
+     460.000 ms  +   10.000  isr_enter
+     460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     460.000 ms  +    0.000  isr_exit
+     460.000 ms  +    0.000  idle
+     470.000 ms  +   10.000  isr_enter
+     470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     470.000 ms  +    0.000  isr_exit
+     470.000 ms  +    0.000  idle
+     480.000 ms  +   10.000  isr_enter
+     480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     480.000 ms  +    0.000  isr_exit
+     480.000 ms  +    0.000  idle
+     490.000 ms  +   10.000  isr_enter
+     490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     490.000 ms  +    0.000  isr_exit
+     490.000 ms  +    0.000  idle
+     500.000 ms  +   10.000  isr_enter
+     500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+     500.000 ms  +    0.000  named_event: name="event_ready" arg0=0 arg1=500
+     500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+     500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+     500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+     500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+     500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+     500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+     500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+     500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     500.000 ms  +    0.000  isr_exit
+     500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+     500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+     500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+     500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+     510.000 ms  +   10.000  isr_enter
+     510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     510.000 ms  +    0.000  isr_exit
+     520.000 ms  +   10.000  isr_enter
+     520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     520.000 ms  +    0.000  isr_exit
+     530.000 ms  +   10.000  isr_enter
+     530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     530.000 ms  +    0.000  isr_exit
+     540.000 ms  +   10.000  isr_enter
+     540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     540.000 ms  +    0.000  isr_exit
+     545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+     545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+     545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+     545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+     545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+     545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+     545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+     545.000 ms  +    0.000  timer_start: id=134630464 duration=1000000 period=0
+     545.000 ms  +    0.000  named_event: name="event_done" arg0=0 arg1=40
+     545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+     545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+     545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+     545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+     545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+     545.000 ms  +    0.000  idle
+     550.000 ms  +    5.000  isr_enter
+     550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     550.000 ms  +    0.000  isr_exit
+     550.000 ms  +    0.000  idle
+     560.000 ms  +   10.000  isr_enter
+     560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     560.000 ms  +    0.000  isr_exit
+     560.000 ms  +    0.000  idle
+     570.000 ms  +   10.000  isr_enter
+     570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     570.000 ms  +    0.000  isr_exit
+     570.000 ms  +    0.000  idle
+     580.000 ms  +   10.000  isr_enter
+     580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     580.000 ms  +    0.000  isr_exit
+     580.000 ms  +    0.000  idle
+     590.000 ms  +   10.000  isr_enter
+     590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     590.000 ms  +    0.000  isr_exit
+     590.000 ms  +    0.000  idle
+     600.000 ms  +   10.000  isr_enter
+     600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     600.000 ms  +    0.000  isr_exit
+     600.000 ms  +    0.000  idle
+     610.000 ms  +   10.000  isr_enter
+     610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     610.000 ms  +    0.000  isr_exit
+     610.000 ms  +    0.000  idle
+     620.000 ms  +   10.000  isr_enter
+     620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     620.000 ms  +    0.000  isr_exit
+     620.000 ms  +    0.000  idle
+     630.000 ms  +   10.000  isr_enter
+     630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     630.000 ms  +    0.000  isr_exit
+     630.000 ms  +    0.000  idle
+     640.000 ms  +   10.000  isr_enter
+     640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     640.000 ms  +    0.000  isr_exit
+     640.000 ms  +    0.000  idle
+     650.000 ms  +   10.000  isr_enter
+     650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     650.000 ms  +    0.000  isr_exit
+     650.000 ms  +    0.000  idle
+     660.000 ms  +   10.000  isr_enter
+     660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     660.000 ms  +    0.000  isr_exit
+     660.000 ms  +    0.000  idle
+     670.000 ms  +   10.000  isr_enter
+     670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     670.000 ms  +    0.000  isr_exit
+     670.000 ms  +    0.000  idle
+     680.000 ms  +   10.000  isr_enter
+     680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     680.000 ms  +    0.000  isr_exit
+     680.000 ms  +    0.000  idle
+     690.000 ms  +   10.000  isr_enter
+     690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     690.000 ms  +    0.000  isr_exit
+     690.000 ms  +    0.000  idle
+     700.000 ms  +   10.000  isr_enter
+     700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     700.000 ms  +    0.000  isr_exit
+     700.000 ms  +    0.000  idle
+     710.000 ms  +   10.000  isr_enter
+     710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     710.000 ms  +    0.000  isr_exit
+     710.000 ms  +    0.000  idle
+     720.000 ms  +   10.000  isr_enter
+     720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     720.000 ms  +    0.000  isr_exit
+     720.000 ms  +    0.000  idle
+     730.000 ms  +   10.000  isr_enter
+     730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     730.000 ms  +    0.000  isr_exit
+     730.000 ms  +    0.000  idle
+     740.000 ms  +   10.000  isr_enter
+     740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     740.000 ms  +    0.000  isr_exit
+     740.000 ms  +    0.000  idle
+     750.000 ms  +   10.000  isr_enter
+     750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+     750.000 ms  +    0.000  named_event: name="event_ready" arg0=1 arg1=750
+     750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+     750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+     750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+     750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+     750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+     750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+     750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+     750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     750.000 ms  +    0.000  isr_exit
+     750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+     750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+     750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+     750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+     760.000 ms  +   10.000  isr_enter
+     760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     760.000 ms  +    0.000  isr_exit
+     770.000 ms  +   10.000  isr_enter
+     770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     770.000 ms  +    0.000  isr_exit
+     780.000 ms  +   10.000  isr_enter
+     780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     780.000 ms  +    0.000  isr_exit
+     790.000 ms  +   10.000  isr_enter
+     790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     790.000 ms  +    0.000  isr_exit
+     795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+     795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+     795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+     795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+     795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+     795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+     795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+     795.000 ms  +    0.000  named_event: name="event_done" arg0=1 arg1=40
+     795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+     795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+     795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+     795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+     795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+     795.000 ms  +    0.000  idle
+     800.000 ms  +    5.000  isr_enter
+     800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     800.000 ms  +    0.000  isr_exit
+     800.000 ms  +    0.000  idle
+     810.000 ms  +   10.000  isr_enter
+     810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     810.000 ms  +    0.000  isr_exit
+     810.000 ms  +    0.000  idle
+     820.000 ms  +   10.000  isr_enter
+     820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     820.000 ms  +    0.000  isr_exit
+     820.000 ms  +    0.000  idle
+     830.000 ms  +   10.000  isr_enter
+     830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     830.000 ms  +    0.000  isr_exit
+     830.000 ms  +    0.000  idle
+     840.000 ms  +   10.000  isr_enter
+     840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     840.000 ms  +    0.000  isr_exit
+     840.000 ms  +    0.000  idle
+     850.000 ms  +   10.000  isr_enter
+     850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     850.000 ms  +    0.000  isr_exit
+     850.000 ms  +    0.000  idle
+     860.000 ms  +   10.000  isr_enter
+     860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     860.000 ms  +    0.000  isr_exit
+     860.000 ms  +    0.000  idle
+     870.000 ms  +   10.000  isr_enter
+     870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     870.000 ms  +    0.000  isr_exit
+     870.000 ms  +    0.000  idle
+     880.000 ms  +   10.000  isr_enter
+     880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     880.000 ms  +    0.000  isr_exit
+     880.000 ms  +    0.000  idle
+     890.000 ms  +   10.000  isr_enter
+     890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     890.000 ms  +    0.000  isr_exit
+     890.000 ms  +    0.000  idle
+     900.000 ms  +   10.000  isr_enter
+     900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     900.000 ms  +    0.000  isr_exit
+     900.000 ms  +    0.000  idle
+     910.000 ms  +   10.000  isr_enter
+     910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     910.000 ms  +    0.000  isr_exit
+     910.000 ms  +    0.000  idle
+     920.000 ms  +   10.000  isr_enter
+     920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     920.000 ms  +    0.000  isr_exit
+     920.000 ms  +    0.000  idle
+     930.000 ms  +   10.000  isr_enter
+     930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     930.000 ms  +    0.000  isr_exit
+     930.000 ms  +    0.000  idle
+     940.000 ms  +   10.000  isr_enter
+     940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     940.000 ms  +    0.000  isr_exit
+     940.000 ms  +    0.000  idle
+     950.000 ms  +   10.000  isr_enter
+     950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     950.000 ms  +    0.000  isr_exit
+     950.000 ms  +    0.000  idle
+     960.000 ms  +   10.000  isr_enter
+     960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     960.000 ms  +    0.000  isr_exit
+     960.000 ms  +    0.000  idle
+     970.000 ms  +   10.000  isr_enter
+     970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     970.000 ms  +    0.000  isr_exit
+     970.000 ms  +    0.000  idle
+     980.000 ms  +   10.000  isr_enter
+     980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     980.000 ms  +    0.000  isr_exit
+     980.000 ms  +    0.000  idle
+     990.000 ms  +   10.000  isr_enter
+     990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+     990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+     990.000 ms  +    0.000  isr_exit
+     990.000 ms  +    0.000  idle
+    1000.000 ms  +   10.000  isr_enter
+    1000.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    1000.000 ms  +    0.000  named_event: name="event_ready" arg0=2 arg1=1000
+    1000.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    1000.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    1000.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    1000.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    1000.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    1000.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    1000.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    1000.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1000.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1000.000 ms  +    0.000  isr_exit
+    1000.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    1000.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    1000.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    1000.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    1010.000 ms  +   10.000  isr_enter
+    1010.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1010.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1010.000 ms  +    0.000  isr_exit
+    1020.000 ms  +   10.000  isr_enter
+    1020.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1020.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1020.000 ms  +    0.000  isr_exit
+    1030.000 ms  +   10.000  isr_enter
+    1030.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1030.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1030.000 ms  +    0.000  isr_exit
+    1040.000 ms  +   10.000  isr_enter
+    1040.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1040.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1040.000 ms  +    0.000  isr_exit
+    1045.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    1045.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    1045.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    1045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    1045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    1045.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    1045.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    1045.000 ms  +    0.000  named_event: name="event_done" arg0=2 arg1=40
+    1045.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    1045.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    1045.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    1045.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    1045.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    1045.000 ms  +    0.000  idle
+    1050.000 ms  +    5.000  isr_enter
+    1050.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1050.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1050.000 ms  +    0.000  isr_exit
+    1050.000 ms  +    0.000  idle
+    1060.000 ms  +   10.000  isr_enter
+    1060.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1060.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1060.000 ms  +    0.000  isr_exit
+    1060.000 ms  +    0.000  idle
+    1070.000 ms  +   10.000  isr_enter
+    1070.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1070.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1070.000 ms  +    0.000  isr_exit
+    1070.000 ms  +    0.000  idle
+    1080.000 ms  +   10.000  isr_enter
+    1080.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1080.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1080.000 ms  +    0.000  isr_exit
+    1080.000 ms  +    0.000  idle
+    1090.000 ms  +   10.000  isr_enter
+    1090.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1090.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1090.000 ms  +    0.000  isr_exit
+    1090.000 ms  +    0.000  idle
+    1100.000 ms  +   10.000  isr_enter
+    1100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1100.000 ms  +    0.000  isr_exit
+    1100.000 ms  +    0.000  idle
+    1110.000 ms  +   10.000  isr_enter
+    1110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1110.000 ms  +    0.000  isr_exit
+    1110.000 ms  +    0.000  idle
+    1120.000 ms  +   10.000  isr_enter
+    1120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1120.000 ms  +    0.000  isr_exit
+    1120.000 ms  +    0.000  idle
+    1130.000 ms  +   10.000  isr_enter
+    1130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1130.000 ms  +    0.000  isr_exit
+    1130.000 ms  +    0.000  idle
+    1140.000 ms  +   10.000  isr_enter
+    1140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1140.000 ms  +    0.000  isr_exit
+    1140.000 ms  +    0.000  idle
+    1150.000 ms  +   10.000  isr_enter
+    1150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1150.000 ms  +    0.000  isr_exit
+    1150.000 ms  +    0.000  idle
+    1160.000 ms  +   10.000  isr_enter
+    1160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1160.000 ms  +    0.000  isr_exit
+    1160.000 ms  +    0.000  idle
+    1170.000 ms  +   10.000  isr_enter
+    1170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1170.000 ms  +    0.000  isr_exit
+    1170.000 ms  +    0.000  idle
+    1180.000 ms  +   10.000  isr_enter
+    1180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1180.000 ms  +    0.000  isr_exit
+    1180.000 ms  +    0.000  idle
+    1190.000 ms  +   10.000  isr_enter
+    1190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1190.000 ms  +    0.000  isr_exit
+    1190.000 ms  +    0.000  idle
+    1200.000 ms  +   10.000  isr_enter
+    1200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1200.000 ms  +    0.000  isr_exit
+    1200.000 ms  +    0.000  idle
+    1210.000 ms  +   10.000  isr_enter
+    1210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1210.000 ms  +    0.000  isr_exit
+    1210.000 ms  +    0.000  idle
+    1220.000 ms  +   10.000  isr_enter
+    1220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1220.000 ms  +    0.000  isr_exit
+    1220.000 ms  +    0.000  idle
+    1230.000 ms  +   10.000  isr_enter
+    1230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1230.000 ms  +    0.000  isr_exit
+    1230.000 ms  +    0.000  idle
+    1240.000 ms  +   10.000  isr_enter
+    1240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1240.000 ms  +    0.000  isr_exit
+    1240.000 ms  +    0.000  idle
+    1250.000 ms  +   10.000  isr_enter
+    1250.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    1250.000 ms  +    0.000  named_event: name="event_ready" arg0=3 arg1=1250
+    1250.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    1250.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    1250.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    1250.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    1250.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    1250.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    1250.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    1250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1250.000 ms  +    0.000  isr_exit
+    1250.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    1250.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    1250.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    1250.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    1260.000 ms  +   10.000  isr_enter
+    1260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1260.000 ms  +    0.000  isr_exit
+    1270.000 ms  +   10.000  isr_enter
+    1270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1270.000 ms  +    0.000  isr_exit
+    1280.000 ms  +   10.000  isr_enter
+    1280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1280.000 ms  +    0.000  isr_exit
+    1290.000 ms  +   10.000  isr_enter
+    1290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1290.000 ms  +    0.000  isr_exit
+    1295.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    1295.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    1295.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    1295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    1295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    1295.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    1295.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    1295.000 ms  +    0.000  named_event: name="event_done" arg0=3 arg1=40
+    1295.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    1295.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    1295.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    1295.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    1295.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    1295.000 ms  +    0.000  idle
+    1300.000 ms  +    5.000  isr_enter
+    1300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1300.000 ms  +    0.000  isr_exit
+    1300.000 ms  +    0.000  idle
+    1310.000 ms  +   10.000  isr_enter
+    1310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1310.000 ms  +    0.000  isr_exit
+    1310.000 ms  +    0.000  idle
+    1320.000 ms  +   10.000  isr_enter
+    1320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1320.000 ms  +    0.000  isr_exit
+    1320.000 ms  +    0.000  idle
+    1330.000 ms  +   10.000  isr_enter
+    1330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1330.000 ms  +    0.000  isr_exit
+    1330.000 ms  +    0.000  idle
+    1340.000 ms  +   10.000  isr_enter
+    1340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1340.000 ms  +    0.000  isr_exit
+    1340.000 ms  +    0.000  idle
+    1350.000 ms  +   10.000  isr_enter
+    1350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1350.000 ms  +    0.000  isr_exit
+    1350.000 ms  +    0.000  idle
+    1360.000 ms  +   10.000  isr_enter
+    1360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1360.000 ms  +    0.000  isr_exit
+    1360.000 ms  +    0.000  idle
+    1370.000 ms  +   10.000  isr_enter
+    1370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1370.000 ms  +    0.000  isr_exit
+    1370.000 ms  +    0.000  idle
+    1380.000 ms  +   10.000  isr_enter
+    1380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1380.000 ms  +    0.000  isr_exit
+    1380.000 ms  +    0.000  idle
+    1390.000 ms  +   10.000  isr_enter
+    1390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1390.000 ms  +    0.000  isr_exit
+    1390.000 ms  +    0.000  idle
+    1400.000 ms  +   10.000  isr_enter
+    1400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1400.000 ms  +    0.000  isr_exit
+    1400.000 ms  +    0.000  idle
+    1410.000 ms  +   10.000  isr_enter
+    1410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1410.000 ms  +    0.000  isr_exit
+    1410.000 ms  +    0.000  idle
+    1420.000 ms  +   10.000  isr_enter
+    1420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1420.000 ms  +    0.000  isr_exit
+    1420.000 ms  +    0.000  idle
+    1430.000 ms  +   10.000  isr_enter
+    1430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1430.000 ms  +    0.000  isr_exit
+    1430.000 ms  +    0.000  idle
+    1440.000 ms  +   10.000  isr_enter
+    1440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1440.000 ms  +    0.000  isr_exit
+    1440.000 ms  +    0.000  idle
+    1450.000 ms  +   10.000  isr_enter
+    1450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1450.000 ms  +    0.000  isr_exit
+    1450.000 ms  +    0.000  idle
+    1460.000 ms  +   10.000  isr_enter
+    1460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1460.000 ms  +    0.000  isr_exit
+    1460.000 ms  +    0.000  idle
+    1470.000 ms  +   10.000  isr_enter
+    1470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1470.000 ms  +    0.000  isr_exit
+    1470.000 ms  +    0.000  idle
+    1480.000 ms  +   10.000  isr_enter
+    1480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1480.000 ms  +    0.000  isr_exit
+    1480.000 ms  +    0.000  idle
+    1490.000 ms  +   10.000  isr_enter
+    1490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1490.000 ms  +    0.000  isr_exit
+    1490.000 ms  +    0.000  idle
+    1500.000 ms  +   10.000  isr_enter
+    1500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    1500.000 ms  +    0.000  named_event: name="event_ready" arg0=4 arg1=1500
+    1500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    1500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    1500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    1500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    1500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    1500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    1500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    1500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1500.000 ms  +    0.000  isr_exit
+    1500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    1500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    1500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    1500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    1510.000 ms  +   10.000  isr_enter
+    1510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1510.000 ms  +    0.000  isr_exit
+    1520.000 ms  +   10.000  isr_enter
+    1520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1520.000 ms  +    0.000  isr_exit
+    1530.000 ms  +   10.000  isr_enter
+    1530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1530.000 ms  +    0.000  isr_exit
+    1540.000 ms  +   10.000  isr_enter
+    1540.000 ms  +    0.000  timer_expiry_enter: id=134630464
+    1540.000 ms  +    0.000  semaphore_give_enter: id=134628740
+    1540.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064780 name="logging"
+    1540.000 ms  +    0.000  semaphore_give_exit: id=134628740
+    1540.000 ms  +    0.000  timer_expiry_exit: id=134630464
+    1540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1540.000 ms  +    0.000  isr_exit
+    1545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    1545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    1545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    1545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    1545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    1545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    1545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    1545.000 ms  +    0.000  named_event: name="event_done" arg0=4 arg1=40
+    1545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    1545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    1545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    1545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    1545.000 ms  +    0.000  thread_switched_in: thread_id=0x8064780 name="logging"
+    1545.000 ms  +    0.000  semaphore_take_exit: id=134628740 timeout=4294957296 ret=0
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    1545.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    1545.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+    1545.000 ms  +    0.000  semaphore_take_blocking: id=134628740 timeout=4294957296
+    1545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064780 name="logging"
+    1545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064780 name="logging"
+    1545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    1545.000 ms  +    0.000  idle
+    1550.000 ms  +    5.000  isr_enter
+    1550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1550.000 ms  +    0.000  isr_exit
+    1550.000 ms  +    0.000  idle
+    1560.000 ms  +   10.000  isr_enter
+    1560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1560.000 ms  +    0.000  isr_exit
+    1560.000 ms  +    0.000  idle
+    1570.000 ms  +   10.000  isr_enter
+    1570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1570.000 ms  +    0.000  isr_exit
+    1570.000 ms  +    0.000  idle
+    1580.000 ms  +   10.000  isr_enter
+    1580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1580.000 ms  +    0.000  isr_exit
+    1580.000 ms  +    0.000  idle
+    1590.000 ms  +   10.000  isr_enter
+    1590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1590.000 ms  +    0.000  isr_exit
+    1590.000 ms  +    0.000  idle
+    1600.000 ms  +   10.000  isr_enter
+    1600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1600.000 ms  +    0.000  isr_exit
+    1600.000 ms  +    0.000  idle
+    1610.000 ms  +   10.000  isr_enter
+    1610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1610.000 ms  +    0.000  isr_exit
+    1610.000 ms  +    0.000  idle
+    1620.000 ms  +   10.000  isr_enter
+    1620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1620.000 ms  +    0.000  isr_exit
+    1620.000 ms  +    0.000  idle
+    1630.000 ms  +   10.000  isr_enter
+    1630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1630.000 ms  +    0.000  isr_exit
+    1630.000 ms  +    0.000  idle
+    1640.000 ms  +   10.000  isr_enter
+    1640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1640.000 ms  +    0.000  isr_exit
+    1640.000 ms  +    0.000  idle
+    1650.000 ms  +   10.000  isr_enter
+    1650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1650.000 ms  +    0.000  isr_exit
+    1650.000 ms  +    0.000  idle
+    1660.000 ms  +   10.000  isr_enter
+    1660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1660.000 ms  +    0.000  isr_exit
+    1660.000 ms  +    0.000  idle
+    1670.000 ms  +   10.000  isr_enter
+    1670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1670.000 ms  +    0.000  isr_exit
+    1670.000 ms  +    0.000  idle
+    1680.000 ms  +   10.000  isr_enter
+    1680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1680.000 ms  +    0.000  isr_exit
+    1680.000 ms  +    0.000  idle
+    1690.000 ms  +   10.000  isr_enter
+    1690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1690.000 ms  +    0.000  isr_exit
+    1690.000 ms  +    0.000  idle
+    1700.000 ms  +   10.000  isr_enter
+    1700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1700.000 ms  +    0.000  isr_exit
+    1700.000 ms  +    0.000  idle
+    1710.000 ms  +   10.000  isr_enter
+    1710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1710.000 ms  +    0.000  isr_exit
+    1710.000 ms  +    0.000  idle
+    1720.000 ms  +   10.000  isr_enter
+    1720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1720.000 ms  +    0.000  isr_exit
+    1720.000 ms  +    0.000  idle
+    1730.000 ms  +   10.000  isr_enter
+    1730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1730.000 ms  +    0.000  isr_exit
+    1730.000 ms  +    0.000  idle
+    1740.000 ms  +   10.000  isr_enter
+    1740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1740.000 ms  +    0.000  isr_exit
+    1740.000 ms  +    0.000  idle
+    1750.000 ms  +   10.000  isr_enter
+    1750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    1750.000 ms  +    0.000  named_event: name="event_ready" arg0=5 arg1=1750
+    1750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    1750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    1750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    1750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    1750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    1750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    1750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    1750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1750.000 ms  +    0.000  isr_exit
+    1750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    1750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    1750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    1750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    1760.000 ms  +   10.000  isr_enter
+    1760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1760.000 ms  +    0.000  isr_exit
+    1770.000 ms  +   10.000  isr_enter
+    1770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1770.000 ms  +    0.000  isr_exit
+    1780.000 ms  +   10.000  isr_enter
+    1780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1780.000 ms  +    0.000  isr_exit
+    1790.000 ms  +   10.000  isr_enter
+    1790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1790.000 ms  +    0.000  isr_exit
+    1795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    1795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    1795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    1795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    1795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    1795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    1795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    1795.000 ms  +    0.000  timer_start: id=134630464 duration=1000000 period=0
+    1795.000 ms  +    0.000  named_event: name="event_done" arg0=5 arg1=40
+    1795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    1795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    1795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    1795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    1795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    1795.000 ms  +    0.000  idle
+    1800.000 ms  +    5.000  isr_enter
+    1800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1800.000 ms  +    0.000  isr_exit
+    1800.000 ms  +    0.000  idle
+    1810.000 ms  +   10.000  isr_enter
+    1810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1810.000 ms  +    0.000  isr_exit
+    1810.000 ms  +    0.000  idle
+    1820.000 ms  +   10.000  isr_enter
+    1820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1820.000 ms  +    0.000  isr_exit
+    1820.000 ms  +    0.000  idle
+    1830.000 ms  +   10.000  isr_enter
+    1830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1830.000 ms  +    0.000  isr_exit
+    1830.000 ms  +    0.000  idle
+    1840.000 ms  +   10.000  isr_enter
+    1840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1840.000 ms  +    0.000  isr_exit
+    1840.000 ms  +    0.000  idle
+    1850.000 ms  +   10.000  isr_enter
+    1850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1850.000 ms  +    0.000  isr_exit
+    1850.000 ms  +    0.000  idle
+    1860.000 ms  +   10.000  isr_enter
+    1860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1860.000 ms  +    0.000  isr_exit
+    1860.000 ms  +    0.000  idle
+    1870.000 ms  +   10.000  isr_enter
+    1870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1870.000 ms  +    0.000  isr_exit
+    1870.000 ms  +    0.000  idle
+    1880.000 ms  +   10.000  isr_enter
+    1880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1880.000 ms  +    0.000  isr_exit
+    1880.000 ms  +    0.000  idle
+    1890.000 ms  +   10.000  isr_enter
+    1890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1890.000 ms  +    0.000  isr_exit
+    1890.000 ms  +    0.000  idle
+    1900.000 ms  +   10.000  isr_enter
+    1900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1900.000 ms  +    0.000  isr_exit
+    1900.000 ms  +    0.000  idle
+    1910.000 ms  +   10.000  isr_enter
+    1910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1910.000 ms  +    0.000  isr_exit
+    1910.000 ms  +    0.000  idle
+    1920.000 ms  +   10.000  isr_enter
+    1920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1920.000 ms  +    0.000  isr_exit
+    1920.000 ms  +    0.000  idle
+    1930.000 ms  +   10.000  isr_enter
+    1930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1930.000 ms  +    0.000  isr_exit
+    1930.000 ms  +    0.000  idle
+    1940.000 ms  +   10.000  isr_enter
+    1940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1940.000 ms  +    0.000  isr_exit
+    1940.000 ms  +    0.000  idle
+    1950.000 ms  +   10.000  isr_enter
+    1950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1950.000 ms  +    0.000  isr_exit
+    1950.000 ms  +    0.000  idle
+    1960.000 ms  +   10.000  isr_enter
+    1960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1960.000 ms  +    0.000  isr_exit
+    1960.000 ms  +    0.000  idle
+    1970.000 ms  +   10.000  isr_enter
+    1970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1970.000 ms  +    0.000  isr_exit
+    1970.000 ms  +    0.000  idle
+    1980.000 ms  +   10.000  isr_enter
+    1980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1980.000 ms  +    0.000  isr_exit
+    1980.000 ms  +    0.000  idle
+    1990.000 ms  +   10.000  isr_enter
+    1990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    1990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    1990.000 ms  +    0.000  isr_exit
+    1990.000 ms  +    0.000  idle
+    2000.000 ms  +   10.000  isr_enter
+    2000.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    2000.000 ms  +    0.000  named_event: name="event_ready" arg0=6 arg1=2000
+    2000.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    2000.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    2000.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    2000.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    2000.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    2000.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    2000.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    2000.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2000.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2000.000 ms  +    0.000  isr_exit
+    2000.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    2000.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    2000.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    2000.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    2010.000 ms  +   10.000  isr_enter
+    2010.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2010.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2010.000 ms  +    0.000  isr_exit
+    2020.000 ms  +   10.000  isr_enter
+    2020.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2020.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2020.000 ms  +    0.000  isr_exit
+    2030.000 ms  +   10.000  isr_enter
+    2030.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2030.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2030.000 ms  +    0.000  isr_exit
+    2040.000 ms  +   10.000  isr_enter
+    2040.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2040.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2040.000 ms  +    0.000  isr_exit
+    2045.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    2045.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    2045.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    2045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    2045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    2045.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    2045.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    2045.000 ms  +    0.000  named_event: name="event_done" arg0=6 arg1=40
+    2045.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    2045.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    2045.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    2045.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    2045.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    2045.000 ms  +    0.000  idle
+    2050.000 ms  +    5.000  isr_enter
+    2050.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2050.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2050.000 ms  +    0.000  isr_exit
+    2050.000 ms  +    0.000  idle
+    2060.000 ms  +   10.000  isr_enter
+    2060.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2060.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2060.000 ms  +    0.000  isr_exit
+    2060.000 ms  +    0.000  idle
+    2070.000 ms  +   10.000  isr_enter
+    2070.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2070.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2070.000 ms  +    0.000  isr_exit
+    2070.000 ms  +    0.000  idle
+    2080.000 ms  +   10.000  isr_enter
+    2080.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2080.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2080.000 ms  +    0.000  isr_exit
+    2080.000 ms  +    0.000  idle
+    2090.000 ms  +   10.000  isr_enter
+    2090.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2090.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2090.000 ms  +    0.000  isr_exit
+    2090.000 ms  +    0.000  idle
+    2100.000 ms  +   10.000  isr_enter
+    2100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2100.000 ms  +    0.000  isr_exit
+    2100.000 ms  +    0.000  idle
+    2110.000 ms  +   10.000  isr_enter
+    2110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2110.000 ms  +    0.000  isr_exit
+    2110.000 ms  +    0.000  idle
+    2120.000 ms  +   10.000  isr_enter
+    2120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2120.000 ms  +    0.000  isr_exit
+    2120.000 ms  +    0.000  idle
+    2130.000 ms  +   10.000  isr_enter
+    2130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2130.000 ms  +    0.000  isr_exit
+    2130.000 ms  +    0.000  idle
+    2140.000 ms  +   10.000  isr_enter
+    2140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2140.000 ms  +    0.000  isr_exit
+    2140.000 ms  +    0.000  idle
+    2150.000 ms  +   10.000  isr_enter
+    2150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2150.000 ms  +    0.000  isr_exit
+    2150.000 ms  +    0.000  idle
+    2160.000 ms  +   10.000  isr_enter
+    2160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2160.000 ms  +    0.000  isr_exit
+    2160.000 ms  +    0.000  idle
+    2170.000 ms  +   10.000  isr_enter
+    2170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2170.000 ms  +    0.000  isr_exit
+    2170.000 ms  +    0.000  idle
+    2180.000 ms  +   10.000  isr_enter
+    2180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2180.000 ms  +    0.000  isr_exit
+    2180.000 ms  +    0.000  idle
+    2190.000 ms  +   10.000  isr_enter
+    2190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2190.000 ms  +    0.000  isr_exit
+    2190.000 ms  +    0.000  idle
+    2200.000 ms  +   10.000  isr_enter
+    2200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2200.000 ms  +    0.000  isr_exit
+    2200.000 ms  +    0.000  idle
+    2210.000 ms  +   10.000  isr_enter
+    2210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2210.000 ms  +    0.000  isr_exit
+    2210.000 ms  +    0.000  idle
+    2220.000 ms  +   10.000  isr_enter
+    2220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2220.000 ms  +    0.000  isr_exit
+    2220.000 ms  +    0.000  idle
+    2230.000 ms  +   10.000  isr_enter
+    2230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2230.000 ms  +    0.000  isr_exit
+    2230.000 ms  +    0.000  idle
+    2240.000 ms  +   10.000  isr_enter
+    2240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2240.000 ms  +    0.000  isr_exit
+    2240.000 ms  +    0.000  idle
+    2250.000 ms  +   10.000  isr_enter
+    2250.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    2250.000 ms  +    0.000  named_event: name="event_ready" arg0=7 arg1=2250
+    2250.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    2250.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    2250.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    2250.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    2250.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    2250.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    2250.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    2250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2250.000 ms  +    0.000  isr_exit
+    2250.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    2250.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    2250.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    2250.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    2260.000 ms  +   10.000  isr_enter
+    2260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2260.000 ms  +    0.000  isr_exit
+    2270.000 ms  +   10.000  isr_enter
+    2270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2270.000 ms  +    0.000  isr_exit
+    2280.000 ms  +   10.000  isr_enter
+    2280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2280.000 ms  +    0.000  isr_exit
+    2290.000 ms  +   10.000  isr_enter
+    2290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2290.000 ms  +    0.000  isr_exit
+    2295.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    2295.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    2295.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    2295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    2295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    2295.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    2295.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    2295.000 ms  +    0.000  named_event: name="event_done" arg0=7 arg1=40
+    2295.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    2295.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    2295.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    2295.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    2295.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    2295.000 ms  +    0.000  idle
+    2300.000 ms  +    5.000  isr_enter
+    2300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2300.000 ms  +    0.000  isr_exit
+    2300.000 ms  +    0.000  idle
+    2310.000 ms  +   10.000  isr_enter
+    2310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2310.000 ms  +    0.000  isr_exit
+    2310.000 ms  +    0.000  idle
+    2320.000 ms  +   10.000  isr_enter
+    2320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2320.000 ms  +    0.000  isr_exit
+    2320.000 ms  +    0.000  idle
+    2330.000 ms  +   10.000  isr_enter
+    2330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2330.000 ms  +    0.000  isr_exit
+    2330.000 ms  +    0.000  idle
+    2340.000 ms  +   10.000  isr_enter
+    2340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2340.000 ms  +    0.000  isr_exit
+    2340.000 ms  +    0.000  idle
+    2350.000 ms  +   10.000  isr_enter
+    2350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2350.000 ms  +    0.000  isr_exit
+    2350.000 ms  +    0.000  idle
+    2360.000 ms  +   10.000  isr_enter
+    2360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2360.000 ms  +    0.000  isr_exit
+    2360.000 ms  +    0.000  idle
+    2370.000 ms  +   10.000  isr_enter
+    2370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2370.000 ms  +    0.000  isr_exit
+    2370.000 ms  +    0.000  idle
+    2380.000 ms  +   10.000  isr_enter
+    2380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2380.000 ms  +    0.000  isr_exit
+    2380.000 ms  +    0.000  idle
+    2390.000 ms  +   10.000  isr_enter
+    2390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2390.000 ms  +    0.000  isr_exit
+    2390.000 ms  +    0.000  idle
+    2400.000 ms  +   10.000  isr_enter
+    2400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2400.000 ms  +    0.000  isr_exit
+    2400.000 ms  +    0.000  idle
+    2410.000 ms  +   10.000  isr_enter
+    2410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2410.000 ms  +    0.000  isr_exit
+    2410.000 ms  +    0.000  idle
+    2420.000 ms  +   10.000  isr_enter
+    2420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2420.000 ms  +    0.000  isr_exit
+    2420.000 ms  +    0.000  idle
+    2430.000 ms  +   10.000  isr_enter
+    2430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2430.000 ms  +    0.000  isr_exit
+    2430.000 ms  +    0.000  idle
+    2440.000 ms  +   10.000  isr_enter
+    2440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2440.000 ms  +    0.000  isr_exit
+    2440.000 ms  +    0.000  idle
+    2450.000 ms  +   10.000  isr_enter
+    2450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2450.000 ms  +    0.000  isr_exit
+    2450.000 ms  +    0.000  idle
+    2460.000 ms  +   10.000  isr_enter
+    2460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2460.000 ms  +    0.000  isr_exit
+    2460.000 ms  +    0.000  idle
+    2470.000 ms  +   10.000  isr_enter
+    2470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2470.000 ms  +    0.000  isr_exit
+    2470.000 ms  +    0.000  idle
+    2480.000 ms  +   10.000  isr_enter
+    2480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2480.000 ms  +    0.000  isr_exit
+    2480.000 ms  +    0.000  idle
+    2490.000 ms  +   10.000  isr_enter
+    2490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2490.000 ms  +    0.000  isr_exit
+    2490.000 ms  +    0.000  idle
+    2500.000 ms  +   10.000  isr_enter
+    2500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    2500.000 ms  +    0.000  named_event: name="event_ready" arg0=8 arg1=2500
+    2500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    2500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    2500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    2500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    2500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    2500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    2500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    2500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2500.000 ms  +    0.000  isr_exit
+    2500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    2500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    2500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    2500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    2510.000 ms  +   10.000  isr_enter
+    2510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2510.000 ms  +    0.000  isr_exit
+    2520.000 ms  +   10.000  isr_enter
+    2520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2520.000 ms  +    0.000  isr_exit
+    2530.000 ms  +   10.000  isr_enter
+    2530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2530.000 ms  +    0.000  isr_exit
+    2540.000 ms  +   10.000  isr_enter
+    2540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2540.000 ms  +    0.000  isr_exit
+    2545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    2545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    2545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    2545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    2545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    2545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    2545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    2545.000 ms  +    0.000  named_event: name="event_done" arg0=8 arg1=40
+    2545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    2545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    2545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    2545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    2545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    2545.000 ms  +    0.000  idle
+    2550.000 ms  +    5.000  isr_enter
+    2550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2550.000 ms  +    0.000  isr_exit
+    2550.000 ms  +    0.000  idle
+    2560.000 ms  +   10.000  isr_enter
+    2560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2560.000 ms  +    0.000  isr_exit
+    2560.000 ms  +    0.000  idle
+    2570.000 ms  +   10.000  isr_enter
+    2570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2570.000 ms  +    0.000  isr_exit
+    2570.000 ms  +    0.000  idle
+    2580.000 ms  +   10.000  isr_enter
+    2580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2580.000 ms  +    0.000  isr_exit
+    2580.000 ms  +    0.000  idle
+    2590.000 ms  +   10.000  isr_enter
+    2590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2590.000 ms  +    0.000  isr_exit
+    2590.000 ms  +    0.000  idle
+    2600.000 ms  +   10.000  isr_enter
+    2600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2600.000 ms  +    0.000  isr_exit
+    2600.000 ms  +    0.000  idle
+    2610.000 ms  +   10.000  isr_enter
+    2610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2610.000 ms  +    0.000  isr_exit
+    2610.000 ms  +    0.000  idle
+    2620.000 ms  +   10.000  isr_enter
+    2620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2620.000 ms  +    0.000  isr_exit
+    2620.000 ms  +    0.000  idle
+    2630.000 ms  +   10.000  isr_enter
+    2630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2630.000 ms  +    0.000  isr_exit
+    2630.000 ms  +    0.000  idle
+    2640.000 ms  +   10.000  isr_enter
+    2640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2640.000 ms  +    0.000  isr_exit
+    2640.000 ms  +    0.000  idle
+    2650.000 ms  +   10.000  isr_enter
+    2650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2650.000 ms  +    0.000  isr_exit
+    2650.000 ms  +    0.000  idle
+    2660.000 ms  +   10.000  isr_enter
+    2660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2660.000 ms  +    0.000  isr_exit
+    2660.000 ms  +    0.000  idle
+    2670.000 ms  +   10.000  isr_enter
+    2670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2670.000 ms  +    0.000  isr_exit
+    2670.000 ms  +    0.000  idle
+    2680.000 ms  +   10.000  isr_enter
+    2680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2680.000 ms  +    0.000  isr_exit
+    2680.000 ms  +    0.000  idle
+    2690.000 ms  +   10.000  isr_enter
+    2690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2690.000 ms  +    0.000  isr_exit
+    2690.000 ms  +    0.000  idle
+    2700.000 ms  +   10.000  isr_enter
+    2700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2700.000 ms  +    0.000  isr_exit
+    2700.000 ms  +    0.000  idle
+    2710.000 ms  +   10.000  isr_enter
+    2710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2710.000 ms  +    0.000  isr_exit
+    2710.000 ms  +    0.000  idle
+    2720.000 ms  +   10.000  isr_enter
+    2720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2720.000 ms  +    0.000  isr_exit
+    2720.000 ms  +    0.000  idle
+    2730.000 ms  +   10.000  isr_enter
+    2730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2730.000 ms  +    0.000  isr_exit
+    2730.000 ms  +    0.000  idle
+    2740.000 ms  +   10.000  isr_enter
+    2740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2740.000 ms  +    0.000  isr_exit
+    2740.000 ms  +    0.000  idle
+    2750.000 ms  +   10.000  isr_enter
+    2750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    2750.000 ms  +    0.000  named_event: name="event_ready" arg0=9 arg1=2750
+    2750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    2750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    2750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    2750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    2750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    2750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    2750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    2750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2750.000 ms  +    0.000  isr_exit
+    2750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    2750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    2750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    2750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    2760.000 ms  +   10.000  isr_enter
+    2760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2760.000 ms  +    0.000  isr_exit
+    2770.000 ms  +   10.000  isr_enter
+    2770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2770.000 ms  +    0.000  isr_exit
+    2780.000 ms  +   10.000  isr_enter
+    2780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2780.000 ms  +    0.000  isr_exit
+    2790.000 ms  +   10.000  isr_enter
+    2790.000 ms  +    0.000  timer_expiry_enter: id=134630464
+    2790.000 ms  +    0.000  semaphore_give_enter: id=134628740
+    2790.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064780 name="logging"
+    2790.000 ms  +    0.000  semaphore_give_exit: id=134628740
+    2790.000 ms  +    0.000  timer_expiry_exit: id=134630464
+    2790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2790.000 ms  +    0.000  isr_exit
+    2795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    2795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    2795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    2795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    2795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    2795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    2795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    2795.000 ms  +    0.000  named_event: name="event_done" arg0=9 arg1=40
+    2795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    2795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    2795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    2795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    2795.000 ms  +    0.000  thread_switched_in: thread_id=0x8064780 name="logging"
+    2795.000 ms  +    0.000  semaphore_take_exit: id=134628740 timeout=4294957296 ret=0
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    2795.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    2795.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+    2795.000 ms  +    0.000  semaphore_take_blocking: id=134628740 timeout=4294957296
+    2795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064780 name="logging"
+    2795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064780 name="logging"
+    2795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    2795.000 ms  +    0.000  idle
+    2800.000 ms  +    5.000  isr_enter
+    2800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2800.000 ms  +    0.000  isr_exit
+    2800.000 ms  +    0.000  idle
+    2810.000 ms  +   10.000  isr_enter
+    2810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2810.000 ms  +    0.000  isr_exit
+    2810.000 ms  +    0.000  idle
+    2820.000 ms  +   10.000  isr_enter
+    2820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2820.000 ms  +    0.000  isr_exit
+    2820.000 ms  +    0.000  idle
+    2830.000 ms  +   10.000  isr_enter
+    2830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2830.000 ms  +    0.000  isr_exit
+    2830.000 ms  +    0.000  idle
+    2840.000 ms  +   10.000  isr_enter
+    2840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2840.000 ms  +    0.000  isr_exit
+    2840.000 ms  +    0.000  idle
+    2850.000 ms  +   10.000  isr_enter
+    2850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2850.000 ms  +    0.000  isr_exit
+    2850.000 ms  +    0.000  idle
+    2860.000 ms  +   10.000  isr_enter
+    2860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2860.000 ms  +    0.000  isr_exit
+    2860.000 ms  +    0.000  idle
+    2870.000 ms  +   10.000  isr_enter
+    2870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2870.000 ms  +    0.000  isr_exit
+    2870.000 ms  +    0.000  idle
+    2880.000 ms  +   10.000  isr_enter
+    2880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2880.000 ms  +    0.000  isr_exit
+    2880.000 ms  +    0.000  idle
+    2890.000 ms  +   10.000  isr_enter
+    2890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2890.000 ms  +    0.000  isr_exit
+    2890.000 ms  +    0.000  idle
+    2900.000 ms  +   10.000  isr_enter
+    2900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2900.000 ms  +    0.000  isr_exit
+    2900.000 ms  +    0.000  idle
+    2910.000 ms  +   10.000  isr_enter
+    2910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2910.000 ms  +    0.000  isr_exit
+    2910.000 ms  +    0.000  idle
+    2920.000 ms  +   10.000  isr_enter
+    2920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2920.000 ms  +    0.000  isr_exit
+    2920.000 ms  +    0.000  idle
+    2930.000 ms  +   10.000  isr_enter
+    2930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2930.000 ms  +    0.000  isr_exit
+    2930.000 ms  +    0.000  idle
+    2940.000 ms  +   10.000  isr_enter
+    2940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2940.000 ms  +    0.000  isr_exit
+    2940.000 ms  +    0.000  idle
+    2950.000 ms  +   10.000  isr_enter
+    2950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2950.000 ms  +    0.000  isr_exit
+    2950.000 ms  +    0.000  idle
+    2960.000 ms  +   10.000  isr_enter
+    2960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2960.000 ms  +    0.000  isr_exit
+    2960.000 ms  +    0.000  idle
+    2970.000 ms  +   10.000  isr_enter
+    2970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2970.000 ms  +    0.000  isr_exit
+    2970.000 ms  +    0.000  idle
+    2980.000 ms  +   10.000  isr_enter
+    2980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2980.000 ms  +    0.000  isr_exit
+    2980.000 ms  +    0.000  idle
+    2990.000 ms  +   10.000  isr_enter
+    2990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    2990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    2990.000 ms  +    0.000  isr_exit
+    2990.000 ms  +    0.000  idle
+    3000.000 ms  +   10.000  isr_enter
+    3000.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    3000.000 ms  +    0.000  named_event: name="event_ready" arg0=10 arg1=3000
+    3000.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    3000.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    3000.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    3000.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    3000.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    3000.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    3000.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    3000.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3000.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3000.000 ms  +    0.000  isr_exit
+    3000.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    3000.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    3000.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    3000.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    3010.000 ms  +   10.000  isr_enter
+    3010.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3010.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3010.000 ms  +    0.000  isr_exit
+    3020.000 ms  +   10.000  isr_enter
+    3020.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3020.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3020.000 ms  +    0.000  isr_exit
+    3030.000 ms  +   10.000  isr_enter
+    3030.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3030.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3030.000 ms  +    0.000  isr_exit
+    3040.000 ms  +   10.000  isr_enter
+    3040.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3040.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3040.000 ms  +    0.000  isr_exit
+    3045.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    3045.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    3045.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    3045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    3045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    3045.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    3045.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    3045.000 ms  +    0.000  timer_start: id=134630464 duration=1000000 period=0
+    3045.000 ms  +    0.000  named_event: name="event_done" arg0=10 arg1=40
+    3045.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    3045.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    3045.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    3045.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    3045.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    3045.000 ms  +    0.000  idle
+    3050.000 ms  +    5.000  isr_enter
+    3050.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3050.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3050.000 ms  +    0.000  isr_exit
+    3050.000 ms  +    0.000  idle
+    3060.000 ms  +   10.000  isr_enter
+    3060.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3060.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3060.000 ms  +    0.000  isr_exit
+    3060.000 ms  +    0.000  idle
+    3070.000 ms  +   10.000  isr_enter
+    3070.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3070.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3070.000 ms  +    0.000  isr_exit
+    3070.000 ms  +    0.000  idle
+    3080.000 ms  +   10.000  isr_enter
+    3080.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3080.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3080.000 ms  +    0.000  isr_exit
+    3080.000 ms  +    0.000  idle
+    3090.000 ms  +   10.000  isr_enter
+    3090.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3090.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3090.000 ms  +    0.000  isr_exit
+    3090.000 ms  +    0.000  idle
+    3100.000 ms  +   10.000  isr_enter
+    3100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3100.000 ms  +    0.000  isr_exit
+    3100.000 ms  +    0.000  idle
+    3110.000 ms  +   10.000  isr_enter
+    3110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3110.000 ms  +    0.000  isr_exit
+    3110.000 ms  +    0.000  idle
+    3120.000 ms  +   10.000  isr_enter
+    3120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3120.000 ms  +    0.000  isr_exit
+    3120.000 ms  +    0.000  idle
+    3130.000 ms  +   10.000  isr_enter
+    3130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3130.000 ms  +    0.000  isr_exit
+    3130.000 ms  +    0.000  idle
+    3140.000 ms  +   10.000  isr_enter
+    3140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3140.000 ms  +    0.000  isr_exit
+    3140.000 ms  +    0.000  idle
+    3150.000 ms  +   10.000  isr_enter
+    3150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3150.000 ms  +    0.000  isr_exit
+    3150.000 ms  +    0.000  idle
+    3160.000 ms  +   10.000  isr_enter
+    3160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3160.000 ms  +    0.000  isr_exit
+    3160.000 ms  +    0.000  idle
+    3170.000 ms  +   10.000  isr_enter
+    3170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3170.000 ms  +    0.000  isr_exit
+    3170.000 ms  +    0.000  idle
+    3180.000 ms  +   10.000  isr_enter
+    3180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3180.000 ms  +    0.000  isr_exit
+    3180.000 ms  +    0.000  idle
+    3190.000 ms  +   10.000  isr_enter
+    3190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3190.000 ms  +    0.000  isr_exit
+    3190.000 ms  +    0.000  idle
+    3200.000 ms  +   10.000  isr_enter
+    3200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3200.000 ms  +    0.000  isr_exit
+    3200.000 ms  +    0.000  idle
+    3210.000 ms  +   10.000  isr_enter
+    3210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3210.000 ms  +    0.000  isr_exit
+    3210.000 ms  +    0.000  idle
+    3220.000 ms  +   10.000  isr_enter
+    3220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3220.000 ms  +    0.000  isr_exit
+    3220.000 ms  +    0.000  idle
+    3230.000 ms  +   10.000  isr_enter
+    3230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3230.000 ms  +    0.000  isr_exit
+    3230.000 ms  +    0.000  idle
+    3240.000 ms  +   10.000  isr_enter
+    3240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3240.000 ms  +    0.000  isr_exit
+    3240.000 ms  +    0.000  idle
+    3250.000 ms  +   10.000  isr_enter
+    3250.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    3250.000 ms  +    0.000  named_event: name="event_ready" arg0=11 arg1=3250
+    3250.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    3250.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    3250.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    3250.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    3250.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    3250.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    3250.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    3250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3250.000 ms  +    0.000  isr_exit
+    3250.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    3250.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    3250.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    3250.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    3260.000 ms  +   10.000  isr_enter
+    3260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3260.000 ms  +    0.000  isr_exit
+    3270.000 ms  +   10.000  isr_enter
+    3270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3270.000 ms  +    0.000  isr_exit
+    3280.000 ms  +   10.000  isr_enter
+    3280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3280.000 ms  +    0.000  isr_exit
+    3290.000 ms  +   10.000  isr_enter
+    3290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3290.000 ms  +    0.000  isr_exit
+    3295.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    3295.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    3295.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    3295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    3295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    3295.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    3295.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    3295.000 ms  +    0.000  named_event: name="event_done" arg0=11 arg1=40
+    3295.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    3295.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    3295.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    3295.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    3295.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    3295.000 ms  +    0.000  idle
+    3300.000 ms  +    5.000  isr_enter
+    3300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3300.000 ms  +    0.000  isr_exit
+    3300.000 ms  +    0.000  idle
+    3310.000 ms  +   10.000  isr_enter
+    3310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3310.000 ms  +    0.000  isr_exit
+    3310.000 ms  +    0.000  idle
+    3320.000 ms  +   10.000  isr_enter
+    3320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3320.000 ms  +    0.000  isr_exit
+    3320.000 ms  +    0.000  idle
+    3330.000 ms  +   10.000  isr_enter
+    3330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3330.000 ms  +    0.000  isr_exit
+    3330.000 ms  +    0.000  idle
+    3340.000 ms  +   10.000  isr_enter
+    3340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3340.000 ms  +    0.000  isr_exit
+    3340.000 ms  +    0.000  idle
+    3350.000 ms  +   10.000  isr_enter
+    3350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3350.000 ms  +    0.000  isr_exit
+    3350.000 ms  +    0.000  idle
+    3360.000 ms  +   10.000  isr_enter
+    3360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3360.000 ms  +    0.000  isr_exit
+    3360.000 ms  +    0.000  idle
+    3370.000 ms  +   10.000  isr_enter
+    3370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3370.000 ms  +    0.000  isr_exit
+    3370.000 ms  +    0.000  idle
+    3380.000 ms  +   10.000  isr_enter
+    3380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3380.000 ms  +    0.000  isr_exit
+    3380.000 ms  +    0.000  idle
+    3390.000 ms  +   10.000  isr_enter
+    3390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3390.000 ms  +    0.000  isr_exit
+    3390.000 ms  +    0.000  idle
+    3400.000 ms  +   10.000  isr_enter
+    3400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3400.000 ms  +    0.000  isr_exit
+    3400.000 ms  +    0.000  idle
+    3410.000 ms  +   10.000  isr_enter
+    3410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3410.000 ms  +    0.000  isr_exit
+    3410.000 ms  +    0.000  idle
+    3420.000 ms  +   10.000  isr_enter
+    3420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3420.000 ms  +    0.000  isr_exit
+    3420.000 ms  +    0.000  idle
+    3430.000 ms  +   10.000  isr_enter
+    3430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3430.000 ms  +    0.000  isr_exit
+    3430.000 ms  +    0.000  idle
+    3440.000 ms  +   10.000  isr_enter
+    3440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3440.000 ms  +    0.000  isr_exit
+    3440.000 ms  +    0.000  idle
+    3450.000 ms  +   10.000  isr_enter
+    3450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3450.000 ms  +    0.000  isr_exit
+    3450.000 ms  +    0.000  idle
+    3460.000 ms  +   10.000  isr_enter
+    3460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3460.000 ms  +    0.000  isr_exit
+    3460.000 ms  +    0.000  idle
+    3470.000 ms  +   10.000  isr_enter
+    3470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3470.000 ms  +    0.000  isr_exit
+    3470.000 ms  +    0.000  idle
+    3480.000 ms  +   10.000  isr_enter
+    3480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3480.000 ms  +    0.000  isr_exit
+    3480.000 ms  +    0.000  idle
+    3490.000 ms  +   10.000  isr_enter
+    3490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3490.000 ms  +    0.000  isr_exit
+    3490.000 ms  +    0.000  idle
+    3500.000 ms  +   10.000  isr_enter
+    3500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    3500.000 ms  +    0.000  named_event: name="event_ready" arg0=12 arg1=3500
+    3500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    3500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    3500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    3500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    3500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    3500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    3500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    3500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3500.000 ms  +    0.000  isr_exit
+    3500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    3500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    3500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    3500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    3510.000 ms  +   10.000  isr_enter
+    3510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3510.000 ms  +    0.000  isr_exit
+    3520.000 ms  +   10.000  isr_enter
+    3520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3520.000 ms  +    0.000  isr_exit
+    3530.000 ms  +   10.000  isr_enter
+    3530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3530.000 ms  +    0.000  isr_exit
+    3540.000 ms  +   10.000  isr_enter
+    3540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3540.000 ms  +    0.000  isr_exit
+    3545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    3545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    3545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    3545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    3545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    3545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    3545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    3545.000 ms  +    0.000  named_event: name="event_done" arg0=12 arg1=40
+    3545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    3545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    3545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    3545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    3545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    3545.000 ms  +    0.000  idle
+    3550.000 ms  +    5.000  isr_enter
+    3550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3550.000 ms  +    0.000  isr_exit
+    3550.000 ms  +    0.000  idle
+    3560.000 ms  +   10.000  isr_enter
+    3560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3560.000 ms  +    0.000  isr_exit
+    3560.000 ms  +    0.000  idle
+    3570.000 ms  +   10.000  isr_enter
+    3570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3570.000 ms  +    0.000  isr_exit
+    3570.000 ms  +    0.000  idle
+    3580.000 ms  +   10.000  isr_enter
+    3580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3580.000 ms  +    0.000  isr_exit
+    3580.000 ms  +    0.000  idle
+    3590.000 ms  +   10.000  isr_enter
+    3590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3590.000 ms  +    0.000  isr_exit
+    3590.000 ms  +    0.000  idle
+    3600.000 ms  +   10.000  isr_enter
+    3600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3600.000 ms  +    0.000  isr_exit
+    3600.000 ms  +    0.000  idle
+    3610.000 ms  +   10.000  isr_enter
+    3610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3610.000 ms  +    0.000  isr_exit
+    3610.000 ms  +    0.000  idle
+    3620.000 ms  +   10.000  isr_enter
+    3620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3620.000 ms  +    0.000  isr_exit
+    3620.000 ms  +    0.000  idle
+    3630.000 ms  +   10.000  isr_enter
+    3630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3630.000 ms  +    0.000  isr_exit
+    3630.000 ms  +    0.000  idle
+    3640.000 ms  +   10.000  isr_enter
+    3640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3640.000 ms  +    0.000  isr_exit
+    3640.000 ms  +    0.000  idle
+    3650.000 ms  +   10.000  isr_enter
+    3650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3650.000 ms  +    0.000  isr_exit
+    3650.000 ms  +    0.000  idle
+    3660.000 ms  +   10.000  isr_enter
+    3660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3660.000 ms  +    0.000  isr_exit
+    3660.000 ms  +    0.000  idle
+    3670.000 ms  +   10.000  isr_enter
+    3670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3670.000 ms  +    0.000  isr_exit
+    3670.000 ms  +    0.000  idle
+    3680.000 ms  +   10.000  isr_enter
+    3680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3680.000 ms  +    0.000  isr_exit
+    3680.000 ms  +    0.000  idle
+    3690.000 ms  +   10.000  isr_enter
+    3690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3690.000 ms  +    0.000  isr_exit
+    3690.000 ms  +    0.000  idle
+    3700.000 ms  +   10.000  isr_enter
+    3700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3700.000 ms  +    0.000  isr_exit
+    3700.000 ms  +    0.000  idle
+    3710.000 ms  +   10.000  isr_enter
+    3710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3710.000 ms  +    0.000  isr_exit
+    3710.000 ms  +    0.000  idle
+    3720.000 ms  +   10.000  isr_enter
+    3720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3720.000 ms  +    0.000  isr_exit
+    3720.000 ms  +    0.000  idle
+    3730.000 ms  +   10.000  isr_enter
+    3730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3730.000 ms  +    0.000  isr_exit
+    3730.000 ms  +    0.000  idle
+    3740.000 ms  +   10.000  isr_enter
+    3740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3740.000 ms  +    0.000  isr_exit
+    3740.000 ms  +    0.000  idle
+    3750.000 ms  +   10.000  isr_enter
+    3750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    3750.000 ms  +    0.000  named_event: name="event_ready" arg0=13 arg1=3750
+    3750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    3750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    3750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    3750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    3750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    3750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    3750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    3750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3750.000 ms  +    0.000  isr_exit
+    3750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    3750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    3750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    3750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    3760.000 ms  +   10.000  isr_enter
+    3760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3760.000 ms  +    0.000  isr_exit
+    3770.000 ms  +   10.000  isr_enter
+    3770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3770.000 ms  +    0.000  isr_exit
+    3780.000 ms  +   10.000  isr_enter
+    3780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3780.000 ms  +    0.000  isr_exit
+    3790.000 ms  +   10.000  isr_enter
+    3790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3790.000 ms  +    0.000  isr_exit
+    3795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    3795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    3795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    3795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    3795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    3795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    3795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    3795.000 ms  +    0.000  named_event: name="event_done" arg0=13 arg1=40
+    3795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    3795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    3795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    3795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    3795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    3795.000 ms  +    0.000  idle
+    3800.000 ms  +    5.000  isr_enter
+    3800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3800.000 ms  +    0.000  isr_exit
+    3800.000 ms  +    0.000  idle
+    3810.000 ms  +   10.000  isr_enter
+    3810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3810.000 ms  +    0.000  isr_exit
+    3810.000 ms  +    0.000  idle
+    3820.000 ms  +   10.000  isr_enter
+    3820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3820.000 ms  +    0.000  isr_exit
+    3820.000 ms  +    0.000  idle
+    3830.000 ms  +   10.000  isr_enter
+    3830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3830.000 ms  +    0.000  isr_exit
+    3830.000 ms  +    0.000  idle
+    3840.000 ms  +   10.000  isr_enter
+    3840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3840.000 ms  +    0.000  isr_exit
+    3840.000 ms  +    0.000  idle
+    3850.000 ms  +   10.000  isr_enter
+    3850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3850.000 ms  +    0.000  isr_exit
+    3850.000 ms  +    0.000  idle
+    3860.000 ms  +   10.000  isr_enter
+    3860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3860.000 ms  +    0.000  isr_exit
+    3860.000 ms  +    0.000  idle
+    3870.000 ms  +   10.000  isr_enter
+    3870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3870.000 ms  +    0.000  isr_exit
+    3870.000 ms  +    0.000  idle
+    3880.000 ms  +   10.000  isr_enter
+    3880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3880.000 ms  +    0.000  isr_exit
+    3880.000 ms  +    0.000  idle
+    3890.000 ms  +   10.000  isr_enter
+    3890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3890.000 ms  +    0.000  isr_exit
+    3890.000 ms  +    0.000  idle
+    3900.000 ms  +   10.000  isr_enter
+    3900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3900.000 ms  +    0.000  isr_exit
+    3900.000 ms  +    0.000  idle
+    3910.000 ms  +   10.000  isr_enter
+    3910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3910.000 ms  +    0.000  isr_exit
+    3910.000 ms  +    0.000  idle
+    3920.000 ms  +   10.000  isr_enter
+    3920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3920.000 ms  +    0.000  isr_exit
+    3920.000 ms  +    0.000  idle
+    3930.000 ms  +   10.000  isr_enter
+    3930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3930.000 ms  +    0.000  isr_exit
+    3930.000 ms  +    0.000  idle
+    3940.000 ms  +   10.000  isr_enter
+    3940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3940.000 ms  +    0.000  isr_exit
+    3940.000 ms  +    0.000  idle
+    3950.000 ms  +   10.000  isr_enter
+    3950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3950.000 ms  +    0.000  isr_exit
+    3950.000 ms  +    0.000  idle
+    3960.000 ms  +   10.000  isr_enter
+    3960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3960.000 ms  +    0.000  isr_exit
+    3960.000 ms  +    0.000  idle
+    3970.000 ms  +   10.000  isr_enter
+    3970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3970.000 ms  +    0.000  isr_exit
+    3970.000 ms  +    0.000  idle
+    3980.000 ms  +   10.000  isr_enter
+    3980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3980.000 ms  +    0.000  isr_exit
+    3980.000 ms  +    0.000  idle
+    3990.000 ms  +   10.000  isr_enter
+    3990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    3990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    3990.000 ms  +    0.000  isr_exit
+    3990.000 ms  +    0.000  idle
+    4000.000 ms  +   10.000  isr_enter
+    4000.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    4000.000 ms  +    0.000  named_event: name="event_ready" arg0=14 arg1=4000
+    4000.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    4000.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    4000.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    4000.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    4000.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    4000.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    4000.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    4000.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4000.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4000.000 ms  +    0.000  isr_exit
+    4000.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    4000.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    4000.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    4000.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    4010.000 ms  +   10.000  isr_enter
+    4010.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4010.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4010.000 ms  +    0.000  isr_exit
+    4020.000 ms  +   10.000  isr_enter
+    4020.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4020.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4020.000 ms  +    0.000  isr_exit
+    4030.000 ms  +   10.000  isr_enter
+    4030.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4030.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4030.000 ms  +    0.000  isr_exit
+    4040.000 ms  +   10.000  isr_enter
+    4040.000 ms  +    0.000  timer_expiry_enter: id=134630464
+    4040.000 ms  +    0.000  semaphore_give_enter: id=134628740
+    4040.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064780 name="logging"
+    4040.000 ms  +    0.000  semaphore_give_exit: id=134628740
+    4040.000 ms  +    0.000  timer_expiry_exit: id=134630464
+    4040.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4040.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4040.000 ms  +    0.000  isr_exit
+    4045.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    4045.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    4045.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    4045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    4045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    4045.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    4045.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    4045.000 ms  +    0.000  named_event: name="event_done" arg0=14 arg1=40
+    4045.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    4045.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    4045.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    4045.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    4045.000 ms  +    0.000  thread_switched_in: thread_id=0x8064780 name="logging"
+    4045.000 ms  +    0.000  semaphore_take_exit: id=134628740 timeout=4294957296 ret=0
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    4045.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    4045.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+    4045.000 ms  +    0.000  semaphore_take_blocking: id=134628740 timeout=4294957296
+    4045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064780 name="logging"
+    4045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064780 name="logging"
+    4045.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    4045.000 ms  +    0.000  idle
+    4050.000 ms  +    5.000  isr_enter
+    4050.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4050.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4050.000 ms  +    0.000  isr_exit
+    4050.000 ms  +    0.000  idle
+    4060.000 ms  +   10.000  isr_enter
+    4060.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4060.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4060.000 ms  +    0.000  isr_exit
+    4060.000 ms  +    0.000  idle
+    4070.000 ms  +   10.000  isr_enter
+    4070.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4070.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4070.000 ms  +    0.000  isr_exit
+    4070.000 ms  +    0.000  idle
+    4080.000 ms  +   10.000  isr_enter
+    4080.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4080.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4080.000 ms  +    0.000  isr_exit
+    4080.000 ms  +    0.000  idle
+    4090.000 ms  +   10.000  isr_enter
+    4090.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4090.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4090.000 ms  +    0.000  isr_exit
+    4090.000 ms  +    0.000  idle
+    4100.000 ms  +   10.000  isr_enter
+    4100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4100.000 ms  +    0.000  isr_exit
+    4100.000 ms  +    0.000  idle
+    4110.000 ms  +   10.000  isr_enter
+    4110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4110.000 ms  +    0.000  isr_exit
+    4110.000 ms  +    0.000  idle
+    4120.000 ms  +   10.000  isr_enter
+    4120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4120.000 ms  +    0.000  isr_exit
+    4120.000 ms  +    0.000  idle
+    4130.000 ms  +   10.000  isr_enter
+    4130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4130.000 ms  +    0.000  isr_exit
+    4130.000 ms  +    0.000  idle
+    4140.000 ms  +   10.000  isr_enter
+    4140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4140.000 ms  +    0.000  isr_exit
+    4140.000 ms  +    0.000  idle
+    4150.000 ms  +   10.000  isr_enter
+    4150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4150.000 ms  +    0.000  isr_exit
+    4150.000 ms  +    0.000  idle
+    4160.000 ms  +   10.000  isr_enter
+    4160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4160.000 ms  +    0.000  isr_exit
+    4160.000 ms  +    0.000  idle
+    4170.000 ms  +   10.000  isr_enter
+    4170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4170.000 ms  +    0.000  isr_exit
+    4170.000 ms  +    0.000  idle
+    4180.000 ms  +   10.000  isr_enter
+    4180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4180.000 ms  +    0.000  isr_exit
+    4180.000 ms  +    0.000  idle
+    4190.000 ms  +   10.000  isr_enter
+    4190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4190.000 ms  +    0.000  isr_exit
+    4190.000 ms  +    0.000  idle
+    4200.000 ms  +   10.000  isr_enter
+    4200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4200.000 ms  +    0.000  isr_exit
+    4200.000 ms  +    0.000  idle
+    4210.000 ms  +   10.000  isr_enter
+    4210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4210.000 ms  +    0.000  isr_exit
+    4210.000 ms  +    0.000  idle
+    4220.000 ms  +   10.000  isr_enter
+    4220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4220.000 ms  +    0.000  isr_exit
+    4220.000 ms  +    0.000  idle
+    4230.000 ms  +   10.000  isr_enter
+    4230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4230.000 ms  +    0.000  isr_exit
+    4230.000 ms  +    0.000  idle
+    4240.000 ms  +   10.000  isr_enter
+    4240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4240.000 ms  +    0.000  isr_exit
+    4240.000 ms  +    0.000  idle
+    4250.000 ms  +   10.000  isr_enter
+    4250.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    4250.000 ms  +    0.000  named_event: name="event_ready" arg0=15 arg1=4250
+    4250.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    4250.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    4250.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    4250.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    4250.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    4250.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    4250.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    4250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4250.000 ms  +    0.000  isr_exit
+    4250.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    4250.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    4250.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    4250.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    4260.000 ms  +   10.000  isr_enter
+    4260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4260.000 ms  +    0.000  isr_exit
+    4270.000 ms  +   10.000  isr_enter
+    4270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4270.000 ms  +    0.000  isr_exit
+    4280.000 ms  +   10.000  isr_enter
+    4280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4280.000 ms  +    0.000  isr_exit
+    4290.000 ms  +   10.000  isr_enter
+    4290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4290.000 ms  +    0.000  isr_exit
+    4295.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    4295.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    4295.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    4295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    4295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    4295.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    4295.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    4295.000 ms  +    0.000  timer_start: id=134630464 duration=1000000 period=0
+    4295.000 ms  +    0.000  named_event: name="event_done" arg0=15 arg1=40
+    4295.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    4295.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    4295.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    4295.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    4295.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    4295.000 ms  +    0.000  idle
+    4300.000 ms  +    5.000  isr_enter
+    4300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4300.000 ms  +    0.000  isr_exit
+    4300.000 ms  +    0.000  idle
+    4310.000 ms  +   10.000  isr_enter
+    4310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4310.000 ms  +    0.000  isr_exit
+    4310.000 ms  +    0.000  idle
+    4320.000 ms  +   10.000  isr_enter
+    4320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4320.000 ms  +    0.000  isr_exit
+    4320.000 ms  +    0.000  idle
+    4330.000 ms  +   10.000  isr_enter
+    4330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4330.000 ms  +    0.000  isr_exit
+    4330.000 ms  +    0.000  idle
+    4340.000 ms  +   10.000  isr_enter
+    4340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4340.000 ms  +    0.000  isr_exit
+    4340.000 ms  +    0.000  idle
+    4350.000 ms  +   10.000  isr_enter
+    4350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4350.000 ms  +    0.000  isr_exit
+    4350.000 ms  +    0.000  idle
+    4360.000 ms  +   10.000  isr_enter
+    4360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4360.000 ms  +    0.000  isr_exit
+    4360.000 ms  +    0.000  idle
+    4370.000 ms  +   10.000  isr_enter
+    4370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4370.000 ms  +    0.000  isr_exit
+    4370.000 ms  +    0.000  idle
+    4380.000 ms  +   10.000  isr_enter
+    4380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4380.000 ms  +    0.000  isr_exit
+    4380.000 ms  +    0.000  idle
+    4390.000 ms  +   10.000  isr_enter
+    4390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4390.000 ms  +    0.000  isr_exit
+    4390.000 ms  +    0.000  idle
+    4400.000 ms  +   10.000  isr_enter
+    4400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4400.000 ms  +    0.000  isr_exit
+    4400.000 ms  +    0.000  idle
+    4410.000 ms  +   10.000  isr_enter
+    4410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4410.000 ms  +    0.000  isr_exit
+    4410.000 ms  +    0.000  idle
+    4420.000 ms  +   10.000  isr_enter
+    4420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4420.000 ms  +    0.000  isr_exit
+    4420.000 ms  +    0.000  idle
+    4430.000 ms  +   10.000  isr_enter
+    4430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4430.000 ms  +    0.000  isr_exit
+    4430.000 ms  +    0.000  idle
+    4440.000 ms  +   10.000  isr_enter
+    4440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4440.000 ms  +    0.000  isr_exit
+    4440.000 ms  +    0.000  idle
+    4450.000 ms  +   10.000  isr_enter
+    4450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4450.000 ms  +    0.000  isr_exit
+    4450.000 ms  +    0.000  idle
+    4460.000 ms  +   10.000  isr_enter
+    4460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4460.000 ms  +    0.000  isr_exit
+    4460.000 ms  +    0.000  idle
+    4470.000 ms  +   10.000  isr_enter
+    4470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4470.000 ms  +    0.000  isr_exit
+    4470.000 ms  +    0.000  idle
+    4480.000 ms  +   10.000  isr_enter
+    4480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4480.000 ms  +    0.000  isr_exit
+    4480.000 ms  +    0.000  idle
+    4490.000 ms  +   10.000  isr_enter
+    4490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4490.000 ms  +    0.000  isr_exit
+    4490.000 ms  +    0.000  idle
+    4500.000 ms  +   10.000  isr_enter
+    4500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    4500.000 ms  +    0.000  named_event: name="event_ready" arg0=16 arg1=4500
+    4500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    4500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    4500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    4500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    4500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    4500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    4500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    4500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4500.000 ms  +    0.000  isr_exit
+    4500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    4500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    4500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    4500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    4510.000 ms  +   10.000  isr_enter
+    4510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4510.000 ms  +    0.000  isr_exit
+    4520.000 ms  +   10.000  isr_enter
+    4520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4520.000 ms  +    0.000  isr_exit
+    4530.000 ms  +   10.000  isr_enter
+    4530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4530.000 ms  +    0.000  isr_exit
+    4540.000 ms  +   10.000  isr_enter
+    4540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4540.000 ms  +    0.000  isr_exit
+    4545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    4545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    4545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    4545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    4545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    4545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    4545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    4545.000 ms  +    0.000  named_event: name="event_done" arg0=16 arg1=40
+    4545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    4545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    4545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    4545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    4545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    4545.000 ms  +    0.000  idle
+    4550.000 ms  +    5.000  isr_enter
+    4550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4550.000 ms  +    0.000  isr_exit
+    4550.000 ms  +    0.000  idle
+    4560.000 ms  +   10.000  isr_enter
+    4560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4560.000 ms  +    0.000  isr_exit
+    4560.000 ms  +    0.000  idle
+    4570.000 ms  +   10.000  isr_enter
+    4570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4570.000 ms  +    0.000  isr_exit
+    4570.000 ms  +    0.000  idle
+    4580.000 ms  +   10.000  isr_enter
+    4580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4580.000 ms  +    0.000  isr_exit
+    4580.000 ms  +    0.000  idle
+    4590.000 ms  +   10.000  isr_enter
+    4590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4590.000 ms  +    0.000  isr_exit
+    4590.000 ms  +    0.000  idle
+    4600.000 ms  +   10.000  isr_enter
+    4600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4600.000 ms  +    0.000  isr_exit
+    4600.000 ms  +    0.000  idle
+    4610.000 ms  +   10.000  isr_enter
+    4610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4610.000 ms  +    0.000  isr_exit
+    4610.000 ms  +    0.000  idle
+    4620.000 ms  +   10.000  isr_enter
+    4620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4620.000 ms  +    0.000  isr_exit
+    4620.000 ms  +    0.000  idle
+    4630.000 ms  +   10.000  isr_enter
+    4630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4630.000 ms  +    0.000  isr_exit
+    4630.000 ms  +    0.000  idle
+    4640.000 ms  +   10.000  isr_enter
+    4640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4640.000 ms  +    0.000  isr_exit
+    4640.000 ms  +    0.000  idle
+    4650.000 ms  +   10.000  isr_enter
+    4650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4650.000 ms  +    0.000  isr_exit
+    4650.000 ms  +    0.000  idle
+    4660.000 ms  +   10.000  isr_enter
+    4660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4660.000 ms  +    0.000  isr_exit
+    4660.000 ms  +    0.000  idle
+    4670.000 ms  +   10.000  isr_enter
+    4670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4670.000 ms  +    0.000  isr_exit
+    4670.000 ms  +    0.000  idle
+    4680.000 ms  +   10.000  isr_enter
+    4680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4680.000 ms  +    0.000  isr_exit
+    4680.000 ms  +    0.000  idle
+    4690.000 ms  +   10.000  isr_enter
+    4690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4690.000 ms  +    0.000  isr_exit
+    4690.000 ms  +    0.000  idle
+    4700.000 ms  +   10.000  isr_enter
+    4700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4700.000 ms  +    0.000  isr_exit
+    4700.000 ms  +    0.000  idle
+    4710.000 ms  +   10.000  isr_enter
+    4710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4710.000 ms  +    0.000  isr_exit
+    4710.000 ms  +    0.000  idle
+    4720.000 ms  +   10.000  isr_enter
+    4720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4720.000 ms  +    0.000  isr_exit
+    4720.000 ms  +    0.000  idle
+    4730.000 ms  +   10.000  isr_enter
+    4730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4730.000 ms  +    0.000  isr_exit
+    4730.000 ms  +    0.000  idle
+    4740.000 ms  +   10.000  isr_enter
+    4740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4740.000 ms  +    0.000  isr_exit
+    4740.000 ms  +    0.000  idle
+    4750.000 ms  +   10.000  isr_enter
+    4750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    4750.000 ms  +    0.000  named_event: name="event_ready" arg0=17 arg1=4750
+    4750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    4750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    4750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    4750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    4750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    4750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    4750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    4750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4750.000 ms  +    0.000  isr_exit
+    4750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    4750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    4750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    4750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    4760.000 ms  +   10.000  isr_enter
+    4760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4760.000 ms  +    0.000  isr_exit
+    4770.000 ms  +   10.000  isr_enter
+    4770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4770.000 ms  +    0.000  isr_exit
+    4780.000 ms  +   10.000  isr_enter
+    4780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4780.000 ms  +    0.000  isr_exit
+    4790.000 ms  +   10.000  isr_enter
+    4790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4790.000 ms  +    0.000  isr_exit
+    4795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    4795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    4795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    4795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    4795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    4795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    4795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    4795.000 ms  +    0.000  named_event: name="event_done" arg0=17 arg1=40
+    4795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    4795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    4795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    4795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    4795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    4795.000 ms  +    0.000  idle
+    4800.000 ms  +    5.000  isr_enter
+    4800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4800.000 ms  +    0.000  isr_exit
+    4800.000 ms  +    0.000  idle
+    4810.000 ms  +   10.000  isr_enter
+    4810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4810.000 ms  +    0.000  isr_exit
+    4810.000 ms  +    0.000  idle
+    4820.000 ms  +   10.000  isr_enter
+    4820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4820.000 ms  +    0.000  isr_exit
+    4820.000 ms  +    0.000  idle
+    4830.000 ms  +   10.000  isr_enter
+    4830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4830.000 ms  +    0.000  isr_exit
+    4830.000 ms  +    0.000  idle
+    4840.000 ms  +   10.000  isr_enter
+    4840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4840.000 ms  +    0.000  isr_exit
+    4840.000 ms  +    0.000  idle
+    4850.000 ms  +   10.000  isr_enter
+    4850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4850.000 ms  +    0.000  isr_exit
+    4850.000 ms  +    0.000  idle
+    4860.000 ms  +   10.000  isr_enter
+    4860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4860.000 ms  +    0.000  isr_exit
+    4860.000 ms  +    0.000  idle
+    4870.000 ms  +   10.000  isr_enter
+    4870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4870.000 ms  +    0.000  isr_exit
+    4870.000 ms  +    0.000  idle
+    4880.000 ms  +   10.000  isr_enter
+    4880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4880.000 ms  +    0.000  isr_exit
+    4880.000 ms  +    0.000  idle
+    4890.000 ms  +   10.000  isr_enter
+    4890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4890.000 ms  +    0.000  isr_exit
+    4890.000 ms  +    0.000  idle
+    4900.000 ms  +   10.000  isr_enter
+    4900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4900.000 ms  +    0.000  isr_exit
+    4900.000 ms  +    0.000  idle
+    4910.000 ms  +   10.000  isr_enter
+    4910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4910.000 ms  +    0.000  isr_exit
+    4910.000 ms  +    0.000  idle
+    4920.000 ms  +   10.000  isr_enter
+    4920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4920.000 ms  +    0.000  isr_exit
+    4920.000 ms  +    0.000  idle
+    4930.000 ms  +   10.000  isr_enter
+    4930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4930.000 ms  +    0.000  isr_exit
+    4930.000 ms  +    0.000  idle
+    4940.000 ms  +   10.000  isr_enter
+    4940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4940.000 ms  +    0.000  isr_exit
+    4940.000 ms  +    0.000  idle
+    4950.000 ms  +   10.000  isr_enter
+    4950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4950.000 ms  +    0.000  isr_exit
+    4950.000 ms  +    0.000  idle
+    4960.000 ms  +   10.000  isr_enter
+    4960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4960.000 ms  +    0.000  isr_exit
+    4960.000 ms  +    0.000  idle
+    4970.000 ms  +   10.000  isr_enter
+    4970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4970.000 ms  +    0.000  isr_exit
+    4970.000 ms  +    0.000  idle
+    4980.000 ms  +   10.000  isr_enter
+    4980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4980.000 ms  +    0.000  isr_exit
+    4980.000 ms  +    0.000  idle
+    4990.000 ms  +   10.000  isr_enter
+    4990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    4990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    4990.000 ms  +    0.000  isr_exit
+    4990.000 ms  +    0.000  idle
+    5000.000 ms  +   10.000  isr_enter
+    5000.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    5000.000 ms  +    0.000  named_event: name="event_ready" arg0=18 arg1=5000
+    5000.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    5000.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    5000.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    5000.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    5000.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    5000.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    5000.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    5000.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5000.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5000.000 ms  +    0.000  isr_exit
+    5000.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    5000.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    5000.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    5000.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    5010.000 ms  +   10.000  isr_enter
+    5010.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5010.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5010.000 ms  +    0.000  isr_exit
+    5020.000 ms  +   10.000  isr_enter
+    5020.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5020.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5020.000 ms  +    0.000  isr_exit
+    5030.000 ms  +   10.000  isr_enter
+    5030.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5030.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5030.000 ms  +    0.000  isr_exit
+    5040.000 ms  +   10.000  isr_enter
+    5040.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5040.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5040.000 ms  +    0.000  isr_exit
+    5045.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    5045.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    5045.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    5045.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    5045.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    5045.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    5045.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    5045.000 ms  +    0.000  named_event: name="event_done" arg0=18 arg1=40
+    5045.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    5045.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    5045.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    5045.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    5045.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    5045.000 ms  +    0.000  idle
+    5050.000 ms  +    5.000  isr_enter
+    5050.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5050.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5050.000 ms  +    0.000  isr_exit
+    5050.000 ms  +    0.000  idle
+    5060.000 ms  +   10.000  isr_enter
+    5060.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5060.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5060.000 ms  +    0.000  isr_exit
+    5060.000 ms  +    0.000  idle
+    5070.000 ms  +   10.000  isr_enter
+    5070.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5070.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5070.000 ms  +    0.000  isr_exit
+    5070.000 ms  +    0.000  idle
+    5080.000 ms  +   10.000  isr_enter
+    5080.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5080.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5080.000 ms  +    0.000  isr_exit
+    5080.000 ms  +    0.000  idle
+    5090.000 ms  +   10.000  isr_enter
+    5090.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5090.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5090.000 ms  +    0.000  isr_exit
+    5090.000 ms  +    0.000  idle
+    5100.000 ms  +   10.000  isr_enter
+    5100.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5100.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5100.000 ms  +    0.000  isr_exit
+    5100.000 ms  +    0.000  idle
+    5110.000 ms  +   10.000  isr_enter
+    5110.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5110.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5110.000 ms  +    0.000  isr_exit
+    5110.000 ms  +    0.000  idle
+    5120.000 ms  +   10.000  isr_enter
+    5120.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5120.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5120.000 ms  +    0.000  isr_exit
+    5120.000 ms  +    0.000  idle
+    5130.000 ms  +   10.000  isr_enter
+    5130.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5130.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5130.000 ms  +    0.000  isr_exit
+    5130.000 ms  +    0.000  idle
+    5140.000 ms  +   10.000  isr_enter
+    5140.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5140.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5140.000 ms  +    0.000  isr_exit
+    5140.000 ms  +    0.000  idle
+    5150.000 ms  +   10.000  isr_enter
+    5150.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5150.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5150.000 ms  +    0.000  isr_exit
+    5150.000 ms  +    0.000  idle
+    5160.000 ms  +   10.000  isr_enter
+    5160.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5160.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5160.000 ms  +    0.000  isr_exit
+    5160.000 ms  +    0.000  idle
+    5170.000 ms  +   10.000  isr_enter
+    5170.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5170.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5170.000 ms  +    0.000  isr_exit
+    5170.000 ms  +    0.000  idle
+    5180.000 ms  +   10.000  isr_enter
+    5180.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5180.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5180.000 ms  +    0.000  isr_exit
+    5180.000 ms  +    0.000  idle
+    5190.000 ms  +   10.000  isr_enter
+    5190.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5190.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5190.000 ms  +    0.000  isr_exit
+    5190.000 ms  +    0.000  idle
+    5200.000 ms  +   10.000  isr_enter
+    5200.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5200.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5200.000 ms  +    0.000  isr_exit
+    5200.000 ms  +    0.000  idle
+    5210.000 ms  +   10.000  isr_enter
+    5210.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5210.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5210.000 ms  +    0.000  isr_exit
+    5210.000 ms  +    0.000  idle
+    5220.000 ms  +   10.000  isr_enter
+    5220.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5220.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5220.000 ms  +    0.000  isr_exit
+    5220.000 ms  +    0.000  idle
+    5230.000 ms  +   10.000  isr_enter
+    5230.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5230.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5230.000 ms  +    0.000  isr_exit
+    5230.000 ms  +    0.000  idle
+    5240.000 ms  +   10.000  isr_enter
+    5240.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5240.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5240.000 ms  +    0.000  isr_exit
+    5240.000 ms  +    0.000  idle
+    5250.000 ms  +   10.000  isr_enter
+    5250.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    5250.000 ms  +    0.000  named_event: name="event_ready" arg0=19 arg1=5250
+    5250.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    5250.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    5250.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    5250.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    5250.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    5250.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    5250.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    5250.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5250.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5250.000 ms  +    0.000  isr_exit
+    5250.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    5250.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    5250.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    5250.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    5260.000 ms  +   10.000  isr_enter
+    5260.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5260.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5260.000 ms  +    0.000  isr_exit
+    5270.000 ms  +   10.000  isr_enter
+    5270.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5270.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5270.000 ms  +    0.000  isr_exit
+    5280.000 ms  +   10.000  isr_enter
+    5280.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5280.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5280.000 ms  +    0.000  isr_exit
+    5290.000 ms  +   10.000  isr_enter
+    5290.000 ms  +    0.000  timer_expiry_enter: id=134630464
+    5290.000 ms  +    0.000  semaphore_give_enter: id=134628740
+    5290.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064780 name="logging"
+    5290.000 ms  +    0.000  semaphore_give_exit: id=134628740
+    5290.000 ms  +    0.000  timer_expiry_exit: id=134630464
+    5290.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5290.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5290.000 ms  +    0.000  isr_exit
+    5295.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    5295.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    5295.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    5295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    5295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    5295.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    5295.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    5295.000 ms  +    0.000  named_event: name="event_done" arg0=19 arg1=40
+    5295.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    5295.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    5295.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    5295.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    5295.000 ms  +    0.000  thread_switched_in: thread_id=0x8064780 name="logging"
+    5295.000 ms  +    0.000  semaphore_take_exit: id=134628740 timeout=4294957296 ret=0
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_enter: id=134628564
+    5295.000 ms  +    0.000  semaphore_give_exit: id=134628564
+    5295.000 ms  +    0.000  semaphore_take_enter: id=134628740 timeout=4294957296
+    5295.000 ms  +    0.000  semaphore_take_blocking: id=134628740 timeout=4294957296
+    5295.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064780 name="logging"
+    5295.000 ms  +    0.000  thread_switched_out: thread_id=0x8064780 name="logging"
+    5295.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    5295.000 ms  +    0.000  idle
+    5300.000 ms  +    5.000  isr_enter
+    5300.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5300.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5300.000 ms  +    0.000  isr_exit
+    5300.000 ms  +    0.000  idle
+    5310.000 ms  +   10.000  isr_enter
+    5310.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5310.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5310.000 ms  +    0.000  isr_exit
+    5310.000 ms  +    0.000  idle
+    5320.000 ms  +   10.000  isr_enter
+    5320.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5320.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5320.000 ms  +    0.000  isr_exit
+    5320.000 ms  +    0.000  idle
+    5330.000 ms  +   10.000  isr_enter
+    5330.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5330.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5330.000 ms  +    0.000  isr_exit
+    5330.000 ms  +    0.000  idle
+    5340.000 ms  +   10.000  isr_enter
+    5340.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5340.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5340.000 ms  +    0.000  isr_exit
+    5340.000 ms  +    0.000  idle
+    5350.000 ms  +   10.000  isr_enter
+    5350.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5350.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5350.000 ms  +    0.000  isr_exit
+    5350.000 ms  +    0.000  idle
+    5360.000 ms  +   10.000  isr_enter
+    5360.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5360.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5360.000 ms  +    0.000  isr_exit
+    5360.000 ms  +    0.000  idle
+    5370.000 ms  +   10.000  isr_enter
+    5370.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5370.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5370.000 ms  +    0.000  isr_exit
+    5370.000 ms  +    0.000  idle
+    5380.000 ms  +   10.000  isr_enter
+    5380.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5380.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5380.000 ms  +    0.000  isr_exit
+    5380.000 ms  +    0.000  idle
+    5390.000 ms  +   10.000  isr_enter
+    5390.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5390.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5390.000 ms  +    0.000  isr_exit
+    5390.000 ms  +    0.000  idle
+    5400.000 ms  +   10.000  isr_enter
+    5400.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5400.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5400.000 ms  +    0.000  isr_exit
+    5400.000 ms  +    0.000  idle
+    5410.000 ms  +   10.000  isr_enter
+    5410.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5410.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5410.000 ms  +    0.000  isr_exit
+    5410.000 ms  +    0.000  idle
+    5420.000 ms  +   10.000  isr_enter
+    5420.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5420.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5420.000 ms  +    0.000  isr_exit
+    5420.000 ms  +    0.000  idle
+    5430.000 ms  +   10.000  isr_enter
+    5430.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5430.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5430.000 ms  +    0.000  isr_exit
+    5430.000 ms  +    0.000  idle
+    5440.000 ms  +   10.000  isr_enter
+    5440.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5440.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5440.000 ms  +    0.000  isr_exit
+    5440.000 ms  +    0.000  idle
+    5450.000 ms  +   10.000  isr_enter
+    5450.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5450.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5450.000 ms  +    0.000  isr_exit
+    5450.000 ms  +    0.000  idle
+    5460.000 ms  +   10.000  isr_enter
+    5460.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5460.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5460.000 ms  +    0.000  isr_exit
+    5460.000 ms  +    0.000  idle
+    5470.000 ms  +   10.000  isr_enter
+    5470.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5470.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5470.000 ms  +    0.000  isr_exit
+    5470.000 ms  +    0.000  idle
+    5480.000 ms  +   10.000  isr_enter
+    5480.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5480.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5480.000 ms  +    0.000  isr_exit
+    5480.000 ms  +    0.000  idle
+    5490.000 ms  +   10.000  isr_enter
+    5490.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5490.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5490.000 ms  +    0.000  isr_exit
+    5490.000 ms  +    0.000  idle
+    5500.000 ms  +   10.000  isr_enter
+    5500.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    5500.000 ms  +    0.000  named_event: name="event_ready" arg0=20 arg1=5500
+    5500.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    5500.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    5500.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    5500.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    5500.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    5500.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    5500.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    5500.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5500.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5500.000 ms  +    0.000  isr_exit
+    5500.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    5500.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    5500.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    5500.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    5510.000 ms  +   10.000  isr_enter
+    5510.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5510.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5510.000 ms  +    0.000  isr_exit
+    5520.000 ms  +   10.000  isr_enter
+    5520.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5520.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5520.000 ms  +    0.000  isr_exit
+    5530.000 ms  +   10.000  isr_enter
+    5530.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5530.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5530.000 ms  +    0.000  isr_exit
+    5540.000 ms  +   10.000  isr_enter
+    5540.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5540.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5540.000 ms  +    0.000  isr_exit
+    5545.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    5545.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    5545.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    5545.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    5545.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    5545.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    5545.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    5545.000 ms  +    0.000  timer_start: id=134630464 duration=1000000 period=0
+    5545.000 ms  +    0.000  named_event: name="event_done" arg0=20 arg1=40
+    5545.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    5545.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    5545.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    5545.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    5545.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    5545.000 ms  +    0.000  idle
+    5550.000 ms  +    5.000  isr_enter
+    5550.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5550.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5550.000 ms  +    0.000  isr_exit
+    5550.000 ms  +    0.000  idle
+    5560.000 ms  +   10.000  isr_enter
+    5560.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5560.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5560.000 ms  +    0.000  isr_exit
+    5560.000 ms  +    0.000  idle
+    5570.000 ms  +   10.000  isr_enter
+    5570.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5570.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5570.000 ms  +    0.000  isr_exit
+    5570.000 ms  +    0.000  idle
+    5580.000 ms  +   10.000  isr_enter
+    5580.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5580.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5580.000 ms  +    0.000  isr_exit
+    5580.000 ms  +    0.000  idle
+    5590.000 ms  +   10.000  isr_enter
+    5590.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5590.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5590.000 ms  +    0.000  isr_exit
+    5590.000 ms  +    0.000  idle
+    5600.000 ms  +   10.000  isr_enter
+    5600.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5600.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5600.000 ms  +    0.000  isr_exit
+    5600.000 ms  +    0.000  idle
+    5610.000 ms  +   10.000  isr_enter
+    5610.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5610.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5610.000 ms  +    0.000  isr_exit
+    5610.000 ms  +    0.000  idle
+    5620.000 ms  +   10.000  isr_enter
+    5620.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5620.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5620.000 ms  +    0.000  isr_exit
+    5620.000 ms  +    0.000  idle
+    5630.000 ms  +   10.000  isr_enter
+    5630.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5630.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5630.000 ms  +    0.000  isr_exit
+    5630.000 ms  +    0.000  idle
+    5640.000 ms  +   10.000  isr_enter
+    5640.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5640.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5640.000 ms  +    0.000  isr_exit
+    5640.000 ms  +    0.000  idle
+    5650.000 ms  +   10.000  isr_enter
+    5650.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5650.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5650.000 ms  +    0.000  isr_exit
+    5650.000 ms  +    0.000  idle
+    5660.000 ms  +   10.000  isr_enter
+    5660.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5660.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5660.000 ms  +    0.000  isr_exit
+    5660.000 ms  +    0.000  idle
+    5670.000 ms  +   10.000  isr_enter
+    5670.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5670.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5670.000 ms  +    0.000  isr_exit
+    5670.000 ms  +    0.000  idle
+    5680.000 ms  +   10.000  isr_enter
+    5680.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5680.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5680.000 ms  +    0.000  isr_exit
+    5680.000 ms  +    0.000  idle
+    5690.000 ms  +   10.000  isr_enter
+    5690.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5690.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5690.000 ms  +    0.000  isr_exit
+    5690.000 ms  +    0.000  idle
+    5700.000 ms  +   10.000  isr_enter
+    5700.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5700.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5700.000 ms  +    0.000  isr_exit
+    5700.000 ms  +    0.000  idle
+    5710.000 ms  +   10.000  isr_enter
+    5710.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5710.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5710.000 ms  +    0.000  isr_exit
+    5710.000 ms  +    0.000  idle
+    5720.000 ms  +   10.000  isr_enter
+    5720.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5720.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5720.000 ms  +    0.000  isr_exit
+    5720.000 ms  +    0.000  idle
+    5730.000 ms  +   10.000  isr_enter
+    5730.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5730.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5730.000 ms  +    0.000  isr_exit
+    5730.000 ms  +    0.000  idle
+    5740.000 ms  +   10.000  isr_enter
+    5740.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5740.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5740.000 ms  +    0.000  isr_exit
+    5740.000 ms  +    0.000  idle
+    5750.000 ms  +   10.000  isr_enter
+    5750.000 ms  +    0.000  timer_expiry_enter: id=134628620
+    5750.000 ms  +    0.000  named_event: name="event_ready" arg0=21 arg1=5750
+    5750.000 ms  +    0.000  msgq_put_enter: id=134628696 timeout=0
+    5750.000 ms  +    0.000  thread_sched_ready: thread_id=0x80646c0 name="control"
+    5750.000 ms  +    0.000  msgq_put_exit: id=134628696 timeout=0 ret=0
+    5750.000 ms  +    0.000  semaphore_give_enter: id=134628760
+    5750.000 ms  +    0.000  thread_sched_ready: thread_id=0x8064620 name="maintenance"
+    5750.000 ms  +    0.000  semaphore_give_exit: id=134628760
+    5750.000 ms  +    0.000  timer_expiry_exit: id=134628620
+    5750.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5750.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5750.000 ms  +    0.000  isr_exit
+    5750.000 ms  +    0.000  thread_switched_out: thread_id=0x8065700 name="idle"
+    5750.000 ms  +    0.000  thread_switched_in: thread_id=0x8064620 name="maintenance"
+    5750.000 ms  +    0.000  semaphore_take_exit: id=134628760 timeout=4294957296 ret=0
+    5750.000 ms  +    0.000  thread_busy_wait_enter: usec_to_wait=45000
+    5760.000 ms  +   10.000  isr_enter
+    5760.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5760.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5760.000 ms  +    0.000  isr_exit
+    5770.000 ms  +   10.000  isr_enter
+    5770.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5770.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5770.000 ms  +    0.000  isr_exit
+    5780.000 ms  +   10.000  isr_enter
+    5780.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5780.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5780.000 ms  +    0.000  isr_exit
+    5790.000 ms  +   10.000  isr_enter
+    5790.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5790.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5790.000 ms  +    0.000  isr_exit
+    5795.000 ms  +    5.000  thread_busy_wait_exit: usec_to_wait=45000
+    5795.000 ms  +    0.000  semaphore_take_enter: id=134628760 timeout=4294957296
+    5795.000 ms  +    0.000  semaphore_take_blocking: id=134628760 timeout=4294957296
+    5795.000 ms  +    0.000  thread_sched_pend: thread_id=0x8064620 name="maintenance"
+    5795.000 ms  +    0.000  thread_switched_out: thread_id=0x8064620 name="maintenance"
+    5795.000 ms  +    0.000  thread_switched_in: thread_id=0x80646c0 name="control"
+    5795.000 ms  +    0.000  msgq_get_exit: id=134628696 timeout=4294957296 ret=0
+    5795.000 ms  +    0.000  named_event: name="event_done" arg0=21 arg1=40
+    5795.000 ms  +    0.000  msgq_get_enter: id=134628696 timeout=4294957296
+    5795.000 ms  +    0.000  msgq_get_blocking: id=134628696 timeout=4294957296
+    5795.000 ms  +    0.000  thread_sched_pend: thread_id=0x80646c0 name="control"
+    5795.000 ms  +    0.000  thread_switched_out: thread_id=0x80646c0 name="control"
+    5795.000 ms  +    0.000  thread_switched_in: thread_id=0x8065700 name="idle"
+    5795.000 ms  +    0.000  idle
+    5800.000 ms  +    5.000  isr_enter
+    5800.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5800.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5800.000 ms  +    0.000  isr_exit
+    5800.000 ms  +    0.000  idle
+    5810.000 ms  +   10.000  isr_enter
+    5810.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5810.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5810.000 ms  +    0.000  isr_exit
+    5810.000 ms  +    0.000  idle
+    5820.000 ms  +   10.000  isr_enter
+    5820.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5820.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5820.000 ms  +    0.000  isr_exit
+    5820.000 ms  +    0.000  idle
+    5830.000 ms  +   10.000  isr_enter
+    5830.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5830.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5830.000 ms  +    0.000  isr_exit
+    5830.000 ms  +    0.000  idle
+    5840.000 ms  +   10.000  isr_enter
+    5840.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5840.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5840.000 ms  +    0.000  isr_exit
+    5840.000 ms  +    0.000  idle
+    5850.000 ms  +   10.000  isr_enter
+    5850.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5850.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5850.000 ms  +    0.000  isr_exit
+    5850.000 ms  +    0.000  idle
+    5860.000 ms  +   10.000  isr_enter
+    5860.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5860.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5860.000 ms  +    0.000  isr_exit
+    5860.000 ms  +    0.000  idle
+    5870.000 ms  +   10.000  isr_enter
+    5870.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5870.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5870.000 ms  +    0.000  isr_exit
+    5870.000 ms  +    0.000  idle
+    5880.000 ms  +   10.000  isr_enter
+    5880.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5880.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5880.000 ms  +    0.000  isr_exit
+    5880.000 ms  +    0.000  idle
+    5890.000 ms  +   10.000  isr_enter
+    5890.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5890.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5890.000 ms  +    0.000  isr_exit
+    5890.000 ms  +    0.000  idle
+    5900.000 ms  +   10.000  isr_enter
+    5900.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5900.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5900.000 ms  +    0.000  isr_exit
+    5900.000 ms  +    0.000  idle
+    5910.000 ms  +   10.000  isr_enter
+    5910.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5910.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5910.000 ms  +    0.000  isr_exit
+    5910.000 ms  +    0.000  idle
+    5920.000 ms  +   10.000  isr_enter
+    5920.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5920.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5920.000 ms  +    0.000  isr_exit
+    5920.000 ms  +    0.000  idle
+    5930.000 ms  +   10.000  isr_enter
+    5930.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5930.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5930.000 ms  +    0.000  isr_exit
+    5930.000 ms  +    0.000  idle
+    5940.000 ms  +   10.000  isr_enter
+    5940.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5940.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5940.000 ms  +    0.000  isr_exit
+    5940.000 ms  +    0.000  idle
+    5950.000 ms  +   10.000  isr_enter
+    5950.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5950.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5950.000 ms  +    0.000  isr_exit
+    5950.000 ms  +    0.000  idle
+    5960.000 ms  +   10.000  isr_enter
+    5960.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5960.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5960.000 ms  +    0.000  isr_exit
+    5960.000 ms  +    0.000  idle
+    5970.000 ms  +   10.000  isr_enter
+    5970.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5970.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5970.000 ms  +    0.000  isr_exit
+    5970.000 ms  +    0.000  idle
+    5980.000 ms  +   10.000  isr_enter
+    5980.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5980.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5980.000 ms  +    0.000  isr_exit
+    5980.000 ms  +    0.000  idle
+    5990.000 ms  +   10.000  isr_enter
+    5990.000 ms  +    0.000  timer_expiry_enter: id=134632548
+    5990.000 ms  +    0.000  timer_expiry_exit: id=134632548
+    5990.000 ms  +    0.000  isr_exit
+    5990.000 ms  +    0.000  idle

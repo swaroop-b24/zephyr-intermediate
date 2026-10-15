@@ -1,0 +1,39 @@
+
+[1;32muart:~$ [mkernel thread list
+Scheduler: 0 since last call
+Threads:
+ 0x8064620 maintenance
+	options: 0x0, priority: 4 timeout: 0
+	state: pending, entry: 0x8049cc4
+	stack size 2048, unused 2024, usage 24 / 2048 (1 %)
+
+ 0x80646c0 control   
+	options: 0x0, priority: 7 timeout: 0
+	state: pending, entry: 0x8049cea
+	stack size 2048, unused 2024, usage 24 / 2048 (1 %)
+
+*0x8065080 shell_uart
+	options: 0x0, priority: 14 timeout: 0
+	state: queued, entry: 0x8051f58
+	stack size 2048, unused 2024, usage 24 / 2048 (1 %)
+
+ 0x8064780 logging   
+	options: 0x0, priority: 14 timeout: 0
+	state: pending, entry: 0x804cd0f
+	stack size 768, unused 744, usage 24 / 768 (3 %)
+
+ 0x8065700 idle      
+	options: 0x1, priority: 15 timeout: 0
+	state: , entry: 0x805567f
+	stack size 256, unused 232, usage 24 / 256 (9 %)
+
+[1;32muart:~$ [mkernel thread stacks
+0x8064620 maintenance                      (real size 2048):	unused 2024	usage   24 / 2048 ( 1 %)
+0x80646c0 control                          (real size 2048):	unused 2024	usage   24 / 2048 ( 1 %)
+0x8065080 shell_uart                       (real size 2048):	unused 2024	usage   24 / 2048 ( 1 %)
+0x8064780 logging                          (real size  768):	unused  744	usage   24 /  768 ( 3 %)
+0x8065700 idle                             (real size  256):	unused  232	usage   24 /  256 ( 9 %)
+0x80677a0 IRQ 00                           (real size 2048):	unused    0	usage 2048 / 2048 (100 %)
+[1;32muart:~$ [mT=~/zephyr-intermediate/zephyr-intermediate.git/tasks/l6-task1
+[1;31mT=~/zephyr-intermediate/zephyr-intermediate.git/tasks/l6-task1: command not found
+[m[1;32muart:~$ [m

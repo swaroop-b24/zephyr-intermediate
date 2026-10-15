@@ -1,0 +1,28 @@
+uart connected to pseudotty: /dev/pts/2
+*** Booting Zephyr OS build v4.4.0 ***
+[00:00:00.000,000] [0m<inf> homework: === L6 Homework: Runtime Investigation ===[0m
+[00:00:00.000,000] [0m<inf> homework: Control work must start within 10 ms[0m
+[00:00:00.000,000] [0m<inf> homework: control priority=3 maintenance priority=4[0m
+[00:00:00.500,000] [0m<inf> homework: event_done seq=0 latency_ms=0 deadline=ok misses=0[0m
+[00:00:00.750,000] [0m<inf> homework: event_done seq=1 latency_ms=0 deadline=ok misses=0[0m
+[00:00:01.000,000] [0m<inf> homework: event_done seq=2 latency_ms=0 deadline=ok misses=0[0m
+[00:00:01.250,000] [0m<inf> homework: event_done seq=3 latency_ms=0 deadline=ok misses=0[0m
+[00:00:01.500,000] [0m<inf> homework: event_done seq=4 latency_ms=0 deadline=ok misses=0[0m
+[00:00:01.750,000] [0m<inf> homework: event_done seq=5 latency_ms=0 deadline=ok misses=0[0m
+[00:00:02.000,000] [0m<inf> homework: event_done seq=6 latency_ms=0 deadline=ok misses=0[0m
+[00:00:02.250,000] [0m<inf> homework: event_done seq=7 latency_ms=0 deadline=ok misses=0[0m
+[00:00:02.500,000] [0m<inf> homework: event_done seq=8 latency_ms=0 deadline=ok misses=0[0m
+[00:00:02.750,000] [0m<inf> homework: event_done seq=9 latency_ms=0 deadline=ok misses=0[0m
+[00:00:03.000,000] [0m<inf> homework: event_done seq=10 latency_ms=0 deadline=ok misses=0[0m
+[00:00:03.250,000] [0m<inf> homework: event_done seq=11 latency_ms=0 deadline=ok misses=0[0m
+[00:00:03.500,000] [0m<inf> homework: event_done seq=12 latency_ms=0 deadline=ok misses=0[0m
+[00:00:03.750,000] [0m<inf> homework: event_done seq=13 latency_ms=0 deadline=ok misses=0[0m
+[00:00:04.000,000] [0m<inf> homework: event_done seq=14 latency_ms=0 deadline=ok misses=0[0m
+[00:00:04.250,000] [0m<inf> homework: event_done seq=15 latency_ms=0 deadline=ok misses=0[0m
+[00:00:04.500,000] [0m<inf> homework: event_done seq=16 latency_ms=0 deadline=ok misses=0[0m
+[00:00:04.750,000] [0m<inf> homework: event_done seq=17 latency_ms=0 deadline=ok misses=0[0m
+[00:00:05.000,000] [0m<inf> homework: event_done seq=18 latency_ms=0 deadline=ok misses=0[0m
+[00:00:05.250,000] [0m<inf> homework: event_done seq=19 latency_ms=0 deadline=ok misses=0[0m
+[00:00:05.250,000] [0m<inf> homework: summary events=20 deadline_misses=0 max_latency_ms=0[0m
+
+Stopped at 5.990s

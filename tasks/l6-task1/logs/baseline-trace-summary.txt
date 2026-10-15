@@ -1,0 +1,11 @@
+decoded 3651 events, 37146 of 37146 bytes
+timestamp unit: 1 raw tick = 0.0010 us (calibrated from the 250 ms event_ready period)
+
+seq=0   ready@  500.000 ms  control started@  545.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+seq=1   ready@  750.000 ms  control started@  795.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+seq=2   ready@ 1000.000 ms  control started@ 1045.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+seq=3   ready@ 1250.000 ms  control started@ 1295.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+seq=4   ready@ 1500.000 ms  control started@ 1545.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+seq=5   ready@ 1750.000 ms  control started@ 1795.000 ms  delay= 45.000 ms  ran in between: maintenance 45.000 ms  (app log: 40 ms)
+
+SUMMARY events=22  median_delay=45.000 ms  max_delay=45.000 ms  over_10ms=22
