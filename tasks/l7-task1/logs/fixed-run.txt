@@ -1,0 +1,14 @@
+*** Booting Zephyr OS build v4.4.0 ***
+parser: received 'get=0'
+parser: setting 0 = led=off
+parser: received 'get=41939990'
+[00:00:00.000,000] [1;31m<err> os: ***** MPU FAULT *****[0m
+[00:00:00.000,000] [1;31m<err> os:   Data Access Violation[0m
+[00:00:00.000,000] [1;31m<err> os:   MMFAR Address: 0x38000040[0m
+[00:00:00.000,000] [1;31m<err> os: r0/a1:  0x027ff416  r1/a2:  0x00000000  r2/a3:  0x0000000a[0m
+[00:00:00.000,000] [1;31m<err> os: r3/a4:  0x38000040 r12/ip:  0x00000000 r14/lr:  0x0ccccccc[0m
+[00:00:00.000,000] [1;31m<err> os:  xpsr:  0x41000000[0m
+[00:00:00.000,000] [1;31m<err> os: Faulting instruction address (r15/pc): 0x100009ae[0m
+[00:00:00.000,000] [1;31m<err> os: >>> ZEPHYR FATAL ERROR 19: Unknown error on CPU 0[0m
+[00:00:00.000,000] [1;31m<err> os: Current thread: 0x38000448 (unknown)[0m
+[00:00:00.010,000] [1;31m<err> os: Halting system[0m

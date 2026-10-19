@@ -1,0 +1,6 @@
+device_key address (nm on the isolated build):
+38000040 d device_key
+fault address (QEMU log):
+[00:00:00.000,000] [1;31m<err> os:   Data Access Violation[0m
+[00:00:00.000,000] [1;31m<err> os:   MMFAR Address: 0x38000040[0m
+EC-PRIVATE occurrences in the isolated run: 0

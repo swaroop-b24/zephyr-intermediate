@@ -1,0 +1,7 @@
+*** Booting Zephyr OS build v4.4.0 ***
+parser: received 'get=0'
+parser: setting 0 = led=off
+parser: received 'get=41941699'
+parser: setting 41941699 = EC-PRIVATE-KEY:8
+parser: received 'get=41941700'
+parser: setting 41941700 = f3a91c25d7e04b6
